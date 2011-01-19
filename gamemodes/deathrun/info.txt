@@ -1,0 +1,20 @@
+"Gamemode"
+{
+	"name"			"Deathrun"
+	"version"		"1.0"
+	"author_name"	"samm5506"
+	"author_email"	""
+	"author_url"	""
+	"icon"			""
+	"info"			""
+	"hide"			"0"
+
+	"fretta_maps"
+	{
+		"1"		"^deathrun_"
+		"2"		"^dr_"
+	}
+
+	"selectable"	"1"
+	"description"	"Get to the end and kill the deaths!"
+}

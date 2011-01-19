@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/gmdm_icons/hitind"
+	"$translucent" 1
+}

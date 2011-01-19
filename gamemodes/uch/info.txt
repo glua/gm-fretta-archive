@@ -1,0 +1,28 @@
+"Gamemode"
+{
+	"name"		"Ultimate Chimera Hunt"
+	"version"	"1"
+
+	"author_name"	"Aska and FluxMage"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"mappattern"
+	{
+		"1"	"^ch_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^ch_"
+		"2" "^arena_"
+		"3" "^koth_harvest_"
+	}
+
+	"selectable"	"1"
+	"description"	"Turn off the Ultimate Chimera, and don't get bit."
+}

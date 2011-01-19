@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+   "$basetexture" "UCH/killicons/pigsuicide"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
+    "$nolod" "1"
+    "$translucent" "1"
+}

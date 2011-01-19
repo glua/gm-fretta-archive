@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Cube 2"
+	"version"	"2.2"
+
+	"author_name"	"Disseminate"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		"It's us"
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^c2_"
+	}
+
+	"mappattern"
+	{
+		"1" "^c2_"
+	}
+
+	"selectable"	"1"
+	"description"	"Escape the labyrinth while dodging the traps."
+}

@@ -1,0 +1,8 @@
+riar.roar
+{
+	channel		CHAN_BODY 
+	volume		VOL_NORM
+	pitch		      90,110 
+	soundlevel		SNDLVL_NORM
+	wave 			{UCH\chimera\roar.wav}
+}

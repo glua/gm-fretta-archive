@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/fw/flagouter"
+	"$bumpmap"			"models/fw/flagouter_normal"
+	"$halflambert" 			"1"
+	"$surfaceprop"			"combine_metal"
+
+	"$phong" 			"1"
+	"$phongexponent" 			31 //11
+	"$phongboost"			"3"
+	"$phongfresnelranges"		"[0.05 0.5 1]"
+
+}

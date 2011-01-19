@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cube/tunnelwall_blank"
+	"$surfaceprop" "Metal"
+}

@@ -1,0 +1,34 @@
+"Gamemode"
+{
+	"name"		"Garry's Mod Deathmatch"
+	"version"	"1.0.3"
+
+	"author_name"	"TEAM GMDM"
+	"author_email"	""
+	"author_url"	"http://s-swires.org/gmdmredux/"
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^dm_"
+		"2" "^gmdm_"
+		"3" "^cs_office"
+		"4" "^de_dust"
+		"5" "^cs_compound"
+		"6" "^cs_italy"
+	}
+
+	"mappattern"
+	{
+		"1" "^gmdm_"
+	}
+
+	
+	"selectable"	"1"
+	"description"	"All you do is kill each other. Sounds simple enough."
+	
+	"override"		"1"
+}

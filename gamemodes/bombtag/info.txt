@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Bomb Tag"
+	"version"	"1"
+
+	"author_name"	"Rambo_6"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^bt_"
+	}
+	"mappattern"
+	{
+		"1"	"^bt_"
+	}
+
+	"selectable"	"1"
+	"description"	"Hot potato with firearms and suicide bombers!"
+}

@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"INCOMING!!!"
+	"version"	"1"
+
+	"author_name"	"samm5506, Chewgum"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		""
+
+	"fretta_maps"
+	{
+		"1"	"^inc_"
+	}
+	"mappattern"
+	{
+		"1"	"^inc_"
+	}
+
+	"selectable"	"1"
+	"description"	"Incoming props from above, get the top of the hill!"
+}

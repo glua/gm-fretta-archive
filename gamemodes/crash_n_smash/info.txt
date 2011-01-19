@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Crash 'n Smash"
+	"version"	"1"
+
+	"author_name"	"Clavus"
+	"author_email"	"clavus@clavusstudios.nl"
+	"author_url"	"www.clavusstudios.com"
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^cns_"
+	}
+
+	"mappattern"
+	{
+		"1"	"^cns_"
+	}
+
+	"selectable"	"1"
+	"description"	"Fire your teammates over the wall to break the other team's props!"
+}

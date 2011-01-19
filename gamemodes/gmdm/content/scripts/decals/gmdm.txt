@@ -1,0 +1,4 @@
+"EgonBurn"
+{
+	"decals/egonburn" 	"1"
+}

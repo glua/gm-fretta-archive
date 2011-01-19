@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Suicide Barrels"
+	"version"	"1"
+
+	"author_name"	"Otoris"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^sb_"
+	}
+	"mappattern"
+	{
+		"1"	"^sb_"
+	}
+
+	"selectable"	"1"
+	"description"	"How long can you survive the Barrel Apocalypse?"
+}
