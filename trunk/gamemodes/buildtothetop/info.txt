@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Build To The Top"
+	"version"	"2.0"
+
+	"author_name"	"GloveBox"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		""
+
+	"mappattern"
+	{
+		"1"	"^btt_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^btt_"
+	}
+	
+	"selectable"	"1"
+}

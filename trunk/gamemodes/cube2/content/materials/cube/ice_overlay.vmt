@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cube/ice_overlay"
+	"$alpha" "0.1"
+}

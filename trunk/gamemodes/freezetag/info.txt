@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Freezetag"
+	"version"	"1"
+
+	"author_name"	"Rambo_6"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^ft_"
+	}
+	"mappattern"
+	{
+		"1"	"^ft_"
+	}
+
+	"selectable"	"1"
+	"description"	"Freeze the enemy team to win the round!"
+}

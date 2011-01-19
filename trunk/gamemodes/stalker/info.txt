@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"The Stalker"
+	"version"	"1"
+
+	"author_name"	"Rambo_6"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^ts_"
+	}
+	"mappattern"
+	{
+		"1"	"^ts_"
+	}
+
+	"selectable"	"1"
+	"description"	"Take down the invisible stalker before it eliminates your team!"
+}

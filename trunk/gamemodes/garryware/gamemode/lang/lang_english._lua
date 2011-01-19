@@ -1,0 +1,225 @@
+LANG.Name = "English"
+LANG.ColorTranslation = {
+	"black",
+	"gray" ,
+	"white",
+	"red"  ,
+	"green",
+	"blue" ,
+	"pink"
+}
+LANG.ShapeTranslation = {
+	"twirl"		,
+	"cross" 	,
+	"triangle"	,
+	"square"  	,
+	"circle"	,
+	"star" 		,
+	"flower"
+}
+
+LANG.TranslationTable = {}
+LANG.TT = LANG.TranslationTable
+
+do --Editor collapse
+LANG.TT["__BASE"] = {}
+LANG.TT["__BASE"][1] = "Success!"
+LANG.TT["__BASE"][2] = "Fail!"
+LANG.TT["__BASE"][3] = "Everyone won!"
+LANG.TT["__BASE"][4] = "Everyone failed!"
+
+LANG.TT["_intro"] = {}
+LANG.TT["_intro"][1] = "A new GarryWare game starts!"
+LANG.TT["_intro"][2] = "Rules are easy : Do what it tells you to do!"
+LANG.TT["_intro"][3] = "Game begins now! Have fun!"
+end
+
+do -- alarmcrates > buildtothetop
+LANG.TT["alarmcrates"] = {}
+LANG.TT["alarmcrates"][1] = "Listen..."
+LANG.TT["alarmcrates"][2] = "Shut it down!"
+
+LANG.TT["avoidball"] = {}
+LANG.TT["avoidball"][1] = "Dodge!"
+
+LANG.TT["avoidcircles"] = {}
+LANG.TT["avoidcircles"][1] = "Off the circles!"
+
+LANG.TT["battery"] = {}
+LANG.TT["battery"][1] = "Find a battery and plug it!"
+
+LANG.TT["bigcrate"] = {}
+LANG.TT["bigcrate"][1] = "Punt the biggest crate!"
+
+LANG.TT["breakallcrates"] = {}
+LANG.TT["breakallcrates"][1] = "Be useful!"
+LANG.TT["breakallcrates"][2] = "Break all crates!"
+
+LANG.TT["buildtothetop"] = {}
+LANG.TT["buildtothetop"][1] = "Punt a sawblade to freeze it..."
+LANG.TT["buildtothetop"][2] = "Get up there!"
+end
+
+do -- bullseye > calcthink
+-- Make use of a function for eventual complex grammar, if not English
+LANG.TT["bullseye"] = {}
+LANG.TT["bullseye"][1] = function(times) return "Hit the bullseye exactly ".. times .." times!" end
+
+LANG.TT["calc"] = {}
+LANG.TT["calc"][1] = "Prepare to type in the chat..."
+LANG.TT["calc"][2] = function(op)   return "Calculate : " .. op .. " = ?" end
+LANG.TT["calc"][3] = function(op)   return { "Calculate", " : " , op .. "= ?" } end
+LANG.TT["calc"][4] = function(sol)  return "Answer was " .. sol .. " !" end
+LANG.TT["calc"][5] = function(op)   return { "Answer", " was " , op .. " !" } end
+LANG.TT["calc"][6] = function(name) return { name, " has found " , "the correct answer!" } end
+LANG.TT["calc"][7] = function(name) return { name, " has found " , "the correct answer ... but no need to say it twice." } end
+LANG.TT["calc"][8] = function(name, partial) return { name, " said \"" .. partial .. "\" ... " , "not quite right!" } end
+
+LANG.TT["calcthink"] = table.Copy(LANG.TT["calc"])
+LANG.TT["calcthink"][2] = function(op)   return "Think : " .. op .. " = ?" end
+LANG.TT["calcthink"][3] = function(op)   return { "Think", " : " , op .. "= ?" } end
+end
+
+do -- catchball > flee_hexa
+LANG.TT["catchball"] = {}
+LANG.TT["catchball"][1] = "Catch!"
+
+LANG.TT["chair"] = {}
+LANG.TT["chair"][1] = "Break a chair!"
+
+LANG.TT["climb"] = {}
+LANG.TT["climb"][1] = "Get on a box!"
+
+LANG.TT["dontmove"] = {}
+LANG.TT["dontmove"][1] = "Don't move!"
+
+LANG.TT["fewestplayers"] = {}
+LANG.TT["fewestplayers"][1] = "Get on the circle with fewest players!"
+
+LANG.TT["findthemissing"] = {}
+LANG.TT["findthemissing"][1] = "Watch the props..."
+LANG.TT["findthemissing"][2] = "Stand on a missing prop!"
+
+LANG.TT["flee_hexa"] = {}
+LANG.TT["flee_hexa"][1] = "Flee!"
+end
+
+do -- get21 >
+LANG.TT["get21"] = {}
+LANG.TT["get21"][1] = "Get 21!"
+
+
+LANG.TT["getoncolor"] = {}
+LANG.TT["getoncolor"][1] = function(colorID)
+	if lang.GetColorblindMode() then
+		return "Get on the " .. LANG:TranslateShapes(colorID) .. " shape!"
+	else
+		return "Get on the " .. LANG:TranslateColors(colorID) .. " one!"
+	end
+end
+
+LANG.TT["hitasmuch"] = {}
+LANG.TT["hitasmuch"][1] = "Hit it most times!"
+LANG.TT["hitasmuch"][2] = function(times) return "It was hit " .. times .. " times!" end
+LANG.TT["hitasmuch"][3] = "No-one hit it enough!"
+
+
+LANG.TT["hlss"] = {}
+LANG.TT["hlss"][1] = "Don't use HLSS!"
+
+LANG.TT["jumpbox"] = {}
+LANG.TT["jumpbox"][1] = "Sprint-jump from box to box twice!"
+
+LANG.TT["keepbumping"] = {}
+LANG.TT["keepbumping"][1] = "Keep bumping!"
+
+LANG.TT["meloncrates"] = {}
+LANG.TT["meloncrates"][1] = "Watch the crates..."
+LANG.TT["meloncrates"][2] = "Break a melon!"
+
+LANG.TT["memorycrates"] = {}
+LANG.TT["memorycrates"][1] = "Watch carefully!"
+LANG.TT["memorycrates"][2] = "Repeat!"
+
+LANG.TT["memorytriangle"] = {}
+LANG.TT["memorytriangle"][1] = "Memorize!"
+LANG.TT["memorytriangle"][2] = function(colorID)
+	if lang.GetColorblindMode() then
+		return "Shoot the " .. LANG:TranslateShapes(colorID) .. " shape!"
+	else
+		return "Shoot the " .. LANG:TranslateColors(colorID) .. " one!"
+	end
+end
+LANG.TT["memorytriangle"][3] = function(number) return "Shoot the " .. number .. "!" end
+
+end
+
+do
+
+LANG.TT["musicalchairs"] = {}
+LANG.TT["musicalchairs"][1] = "Stay near a pod!"
+LANG.TT["musicalchairs"][2] = "Get in a pod!"
+
+LANG.TT["pickupthatcan"] = {}
+LANG.TT["pickupthatcan"][1] = "Pick up that can!"
+LANG.TT["pickupthatcan"][2] = "Now put it in the trashcan!"
+
+LANG.TT["propbullseye"] = {}
+LANG.TT["propbullseye"][1] = "Hit the bullseye!"
+
+
+LANG.TT["rightorder"] = {}
+LANG.TT["rightorder"][1] = "Shoot in the right order!"
+LANG.TT["rightorder"][2] = "In the ascending order ! (1 , 2 , 3...)"
+LANG.TT["rightorder"][3] = "In the descending order ! (3 , 2 , 1...)"
+LANG.TT["rightorder"][4] = function() return { "Sequence order", " is ", "ascending (1 , 2 , 3...)!" } end
+LANG.TT["rightorder"][5] = function() return { "Sequence order", " is ", "descending (3 , 2 , 1...)!" } end
+LANG.TT["rightorder"][6] = function(sequence) return  "Sequence was ".. message .."!" end
+LANG.TT["rightorder"][7] = function(sequence) return { "Sequence", " was ", message .."!" } end
+
+LANG.TT["rocketjump"] = {}
+LANG.TT["rocketjump"][1] = "Rocketjump onto a plate!"
+
+LANG.TT["rollingcolor"] = {}
+LANG.TT["rollingcolor"][1] = function(colorID)
+	if lang.GetColorblindMode() then
+		return "Wait and shoot the " .. LANG:TranslateShapes(colorID) .. " shape!"
+	else
+		return "Wait and shoot the " .. LANG:TranslateColors(colorID) .. " one!"
+	end
+end
+
+LANG.TT["shootcolor"] = {}
+LANG.TT["shootcolor"][1] = function(colorID)
+	if lang.GetColorblindMode() then
+		return "Shoot the " .. LANG:TranslateShapes(colorID) .. " shape!"
+	else
+		return "Shoot the " .. LANG:TranslateColors(colorID) .. " one!"
+	end
+end
+
+LANG.TT["sprint"] = {}
+LANG.TT["sprint"][1] = "Keep sprinting!"
+
+
+LANG.TT["touchsky"] = {}
+LANG.TT["touchsky"][1] = "Stay on the ground!"
+LANG.TT["touchsky"][2] = "Don't reach the sky!"
+
+
+LANG.TT["tryclimb"] = {}
+LANG.TT["tryclimb"][1] = "Try to climb on a box!"
+
+end
+
+
+
+function LANG:TranslateColors( colorID )
+	return self.ColorTranslation[colorID] or "ERROR"
+end
+
+function LANG:TranslateShapes( colorID )
+	return self.ShapeTranslation[colorID] or "ERROR"
+end
+
+

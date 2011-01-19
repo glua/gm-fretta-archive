@@ -1,0 +1,211 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+			<title>GarryWare - Notice</title>
+			<link rel="icon" type="image/gif" href="dongle_favicon.gif" />
+			<style type="text/css">
+			html
+			{
+				background-repeat: repeat;
+				background-position: top-left;
+			}
+			body
+			{
+				background-color: white;
+				border: 3px solid #0099cc;
+				margin: auto;
+				margin-top: 15px;
+				padding: 10px;
+				font-family: "Trebuchet MS",Verdana,Arial,serif;
+				color: #0099cc;
+				text-align: center;
+
+				font-size: 12px;
+				line-height: 14px;
+
+				background-repeat: repeat-x;
+				background-position: top;
+				
+				width: 440px;
+			}
+			h1
+			{
+				font-variant: small-caps;
+				margin: 0px;
+				margin-bottom: 0.5em;
+
+				font-size: 24px;
+				line-height: 26px;
+			}
+			h2
+			{
+				font-variant: small-caps;
+				margin: 0px;
+				margin-bottom: 0.5em;
+
+				font-size: 20px;
+				line-height: 22px;
+			}
+			h3
+			{
+				margin: 0px;
+				margin-bottom: 0.5em;
+
+				font-size: 12px;
+				line-height: 12px;
+			}
+			p
+			{
+				margin: 0px;
+				margin-top: 6px;
+				margin-bottom: 6px;
+
+				font-size: 12px;
+				line-height: 14px;
+			}
+			hr
+			{
+				color: #0099cc;
+				background-color: #0099cc;
+				height: 3px;
+				border: 0;
+				margin-top: 6px;
+				margin-bottom: 16px;
+				clear: both;
+				width: 50%;
+			}
+			.cadre hr
+			{
+				color: #DA78C3;
+				background-color: #DA78C3;
+			}
+			.minor
+			{
+				width: 25%;
+			}
+			table
+			{
+				font-size: 12px;
+				line-height: 14px;
+				margin: auto;
+			}
+			th
+			{
+				text-align: right;
+				font-weight: normal;
+				width: 45%;
+			}
+			td
+			{
+				text-align: left;
+				font-weight: bold;
+				width: 45%;
+			}
+			strong
+			{
+				color: #DA78C3;
+			}
+			.cadre strong
+			{
+				color: #cc3399;
+			}
+			a
+			{
+				color: #136645;
+				text-decoration: none;
+			}
+			a:hover
+			{
+				color: #188056;
+			}
+			a:focus
+			{
+				color: #0A3322;
+			}
+			ul
+			{
+				text-align: left;
+				margin: 0;
+				padding: 5px;
+				list-style-type: none;
+			}
+			li
+			{
+				margin-bottom: 0.2em;
+				padding-left: 0.5em;
+				padding-bottom: 0.1em;
+				border-left: 1.2em solid #0099cc;
+			}
+			.cadre li
+			{
+				border-left: 1.2em solid #DA78C3;
+			}
+			acronym
+			{
+				border-bottom: 1px dotted;
+				cursor: help;
+			}
+			.cadre
+			{
+				background-repeat: no-repeat;
+				background-position: top-left;
+				
+				clear: both;
+
+				background-repeat: repeat-x;
+				background-position: top;
+				padding: 3px;
+				
+				font-size: 12px;
+				color: #DA78C3;
+				
+				border: 3px solid #DA78C3;
+			}	
+			.signinfo
+			{
+				text-align: right;
+			}
+			.grand
+			{
+				font-size: 125%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>GarryWare Notice</h1>
+		<p>
+			Thanks for downloading GarryWare! Here is a quick installation notice.
+		</p>
+		
+		<hr class="minor" />
+		
+		<h2>Where to install?</h2>
+		<p>
+			You need to arrange folders so that this pattern matches : <strong>garrysmod/gamemodes/garryware/info.txt</strong>
+		</p>
+		
+		<h2>Precautions for server hosting</h2>
+		<p>
+			<strong>You should consider shifting every file from content/ folder of your gamemode to your garrysmod/ folder on your server</strong>. That way, players will download content directly to the right location in their game. My apologies for that, but the way Garry's Mod gamemodes system currently is will force you to do that, because the server will look for the files to send over as if they were physically in garrysmod/ folder.
+		</p>
+		
+		<p>
+			This gamemode makes use of limited lua_run entities in certain minigames, to circumvent gamemode hooks that are not working properly. It is especially used to circumvent the use of GravGunPickup-type of hooks. Due to this, <strong>servers that have custom modules that block all lua_run type of triggers will prevent this game from working properly</strong>.
+		</p>
+		
+		<h2>Will players get kicked out if they don't have the content?</h2>
+		<p>
+			If hosting a server with players that don't have the custom content (maps and sounds), <strong>the server will try to send them over (every custom content is provided)</strong>. Also, this gamemode reguires any Source game : It only uses crucial content from shared Source files. That means <strong>any Garry's Mod owner can run GarryWare with no issues</strong>.
+		</p>
+		
+		<h2>SVN URL</h2>
+		<p>
+			http://subversion.assembla.com/svn/garryware
+		</p>
+		
+		<p class="signinfo">
+			Hurricaaane <a href="http://www.youtube.com/user/Hurricaaane" title="YouTube Channel">on YouTube</a><br/>
+			<a href="http://www.facepunch.com/showthread.php?t=853915" title="Facepunch Thread">Facepunch Thread</a>
+		</p>
+	</body>
+</html>

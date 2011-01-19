@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\uch\flat2"
+	"$alphatest" 1
+	"$nodecal" "1"
+	"$model" "1"
+}

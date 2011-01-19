@@ -1,0 +1,22 @@
+"Refract"
+{
+	"$model"				"1"
+	"$bluramount"			"0.3"
+	"$refractamount"			"0.4"
+	"$scale"				"[1 1]"
+	"$normalmap"			"models/fw/flaginner_normal"
+	"$dudvmap"			"models/fw/flaginner_dudv"
+	"$refracttint"			"[1 1 1]"
+	"$surfaceprop"			"glass"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" 0.12 //0.15
+			"texturescrollangle" 90
+		}
+	}
+
+}

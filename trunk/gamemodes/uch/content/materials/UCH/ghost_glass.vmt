@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+   "$basetexture" "UCH/ghost_glass"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
+    "$nolod" "1"
+}

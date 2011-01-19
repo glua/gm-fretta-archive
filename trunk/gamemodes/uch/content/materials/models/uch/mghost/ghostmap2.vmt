@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\uch/Mghost/ghostmap"
+	"$bumpmap" "models\uch/flat2"
+        "$model" 1
+	"$phong" "1"
+//	"$phongexponent" "20"
+//	"$phongboost" ".3"
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+//	"$phongfresnelranges" "[.3 1 8]" 
+	"$phongboost"	"-10"
+	"$phongexponent" "1"
+	"$phongfresnelranges"	"[0.03 0.015 0.01]"
+	"$rimlight" "0" // To enable rim lighting (requires phong)
+	"$rimlightexponent" "1" // Exponent for phong component of rim lighting
+	"$rimlightboost" "1" // Boost for ambient cube component of rim lighting
+	"$halflambert" 1
+}

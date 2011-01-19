@@ -1,0 +1,14 @@
+@include "base.fgd"
+
+@SolidClass base(Trigger) = func_wareroom :
+	"Delimits an independant room for use with Garry Ware."
+[
+	minplayers(integer) : "Min Players" : 0 : "The minimum number of players recommended for this room."
+	maxplayers(integer) : "Max Players" : 0 : "The maximum number of players recommended for this room."
+]
+
+@PointClass size(-4 -4 -4, 4 4 4) = gmod_warelocation :
+	"A target location where entities may spawn in Garry Ware minigames."
+[
+	targetname(target_source) : "Group" : : "The group this location is part of."
+]

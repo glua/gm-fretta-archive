@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"FortwarsX"
+	"version"	"1.3"
+
+	"author_name"	"Dlaor"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^fw_"
+	}
+	"mappattern"
+	{
+		"1"	"^fw_"
+	}
+
+	"selectable"	"1"
+	"description"	"Build bases to protect yourself from the enemies!"
+}

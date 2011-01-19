@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"GarryWare (v1.1902)"
+	"version"	"2"
+
+	"author_name"	"Ha3 Team"
+	"author_email"	"http://www.facepunch.com/showthread.php?t=853915"
+	"author_url"	"http://www.youtube.com/user/Hurricaaane"
+	
+	"icon"		""
+	"info"		"Gamemode developed by Hurricaaane, with Kilburn and The Hamster Alliance."
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^wa_"
+	}
+	"mappattern"
+	{
+		"1"	"^wa_"
+	}
+
+	"selectable"	"1"
+	"description"	"GarryWare - Do what she says."
+}

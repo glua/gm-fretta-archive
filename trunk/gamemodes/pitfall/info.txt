@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Pitfall"
+	"version"	"1"
+
+	"author_name"	"BlackOps"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^pf_"
+	}
+
+	"mappattern"
+	{
+		"1"	"^pf_"
+	}
+
+	"selectable"	"1"
+	"description"	"Don't fall into the pit!"
+}

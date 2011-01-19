@@ -1,0 +1,13 @@
+g_cLanguage = {}
+
+function IncludeLanguages()
+	local path = string.Replace(GM.Folder, "gamemodes/", "").."/gamemode/lang/"
+	for _,file in pairs(file.FindInLua(path.."*.lua")) do
+		LANG = {}
+		
+		include(path..file)
+		
+		local lang_raw = string.Replace(file, ".lua", "")
+		g_cLanguage[lang_raw] = LANG
+	end
+end

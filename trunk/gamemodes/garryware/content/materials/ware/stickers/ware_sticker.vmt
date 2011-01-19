@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"ware/stickers/ware_sticker" 
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1
+	"$nolod"			1
+} 
