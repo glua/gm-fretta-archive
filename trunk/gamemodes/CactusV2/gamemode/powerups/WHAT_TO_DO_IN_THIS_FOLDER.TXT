@@ -1,0 +1,4 @@
+This is the folder where you put your custom power-ups in.
+That way you don't need to be editing the powerups_meta file!
+
+Remember, you can make as many functions and hooks as you want for your object.

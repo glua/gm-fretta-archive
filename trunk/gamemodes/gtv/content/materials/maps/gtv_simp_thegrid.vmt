@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"	"maps/gtv_simp_thegrid" 
+	"$ignorez"	1 
+	"$vertexcolor"	1 
+	"$vertexalpha"	1 
+}

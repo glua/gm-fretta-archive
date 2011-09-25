@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"playercircle2"
+	"$ignorez"			0
+	"$vertexcolor" 		1
+	"$vertexalpha" 		1
+	"$nolod" 			1
+	"$color"			"[1 1 1]"
+}

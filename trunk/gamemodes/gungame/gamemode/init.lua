@@ -5,6 +5,17 @@ AddCSLuaFile( "shared.lua" )
 include( "shared.lua" )
 include( "tables.lua" )
 
+function GM:RoundTimerEnd( )
+	GAMEMODE:RoundEndWithResult( ROUND_RESULT_DRAW )
+end
+
+function GM:OnRoundResult( )
+	for k,v in pairs(player.GetAll()) do
+		v:SetFrags(0)
+		v:StripWeapons()
+	end
+end
+
 function PlayerSpawn( ply )
 	for k,v in pairs( GAMEMODE.BonusLevels ) do
 		if k == ( ply.level ) then
@@ -16,16 +27,18 @@ function PlayerSpawn( ply )
 end
 
 function UpgradeCheck( ply )
+	ply:StripWeapons()
+		if ply:Team() == 2 then
+			ply:Give( "weapon_stunstick" )
+		else
+			ply:Give( "weapon_crowbar" )
+		end
 	for k,v in pairs( Levels ) do
 		if ply:Frags() == k then
-			for k, v in pairs( ply:GetWeapons() ) do
-				ply:DropWeapon(v)
-			end
-			ply:Give( "weapon_real_cs_knife" )
 			local gun = v
 			ply:Give( gun )
 			ply:SelectWeapon( gun )
-			RunConsoleCommand("say", "is on: "..gun)
+			PrintMessage( HUD_PRINTTALK, ply:GetName().." is on: "..gun )
 		end
 	end
 	if ply:Frags() == 20 then
@@ -34,45 +47,36 @@ function UpgradeCheck( ply )
 			BroadcastLua( "LocalPlayer():EmitSound( 'knife_level.wav' )" )
 			else if ply:Frags() == 22 then
 				BroadcastLua( "LocalPlayer():EmitSound( \"song_credits_2\" )" )
-				RunConsoleCommand("say", "WON THE GAME!!1")
-				timer.Simple( 2, function() GAMEMODE:EndOfGame(true) end )
+				timer.Simple( 2, function() GAMEMODE:RoundEndWithResult( team.GetName(ply:Team()), ply:GetName().." Won this Round!" ) end )
 			end
 		end
 	end
 end
 
 function GM:DoPlayerDeath( ply, attacker, dmginfo )
+	ply:StripWeapons()
 	ply:CreateRagdoll()
 	ply:AddDeaths( 1 )
-	if ( attacker:IsValid() and attacker != ply ) then
-		if ( dmginfo:GetInflictor() == "weapon_real_cs_knife" and attacker:Frags() < 20) then
+	if ( attacker:IsValid() and attacker:IsPlayer( ) and attacker != ply ) then
+		if ( dmginfo:IsBulletDamage() == false and attacker:Frags() < 20) then
 			attacker:AddFrags(1)
 			UpgradeCheck(attacker)
 			attacker:EmitSound( "smb3_powerup.wav" )
 			ply:AddFrags(-1)
 			UpgradeCheck(ply)
-			attacker:EmitSound( "smb3_powerup.wav" )
-			else if ( dmginfo:GetInflictor() == "weapon_real_cs_knife" and attacker:Frags() == 20) then
-			ply:Give( "weapon_real_cs_grenade" )
-			attacker:GiveAmmo(1, "grenade")
-			attacker:SelectWeapon( "weapon_real_cs_grenade" )
-			attacker:EmitSound( "brass_bell_C.wav" )
-			ply:AddFrags(-1)
-			UpgradeCheck(ply)
-			ply:EmitSound( "smb3_powerdown.wav" )
-				else if ( dmginfo:GetInflictor() == "weapon_real_cs_knife" and attacker.level == 21) then
-				attacker:AddFrags(1)
-				UpgradeCheck(attacker)
-				attacker:EmitSound( "smb3_powerup.wav" )
+			attacker:EmitSound( "smb3_powerdown.wav" )
+			else if ( dmginfo:IsExplosionDamage() == false and attacker:Frags() == 20) then
+				ply:Give( "weapon_frag" )
+				attacker:GiveAmmo(2, "grenade")
+				attacker:EmitSound( "brass_bell_C.wav" )
 				ply:AddFrags(-1)
 				UpgradeCheck(ply)
 				ply:EmitSound( "smb3_powerdown.wav" )
 				else
-				attacker:AddFrags(1)
-				UpgradeCheck(attacker)
-				attacker:EmitSound( "smb3_powerup.wav" )
+					attacker:AddFrags(1)
+					UpgradeCheck(attacker)
+					attacker:EmitSound( "smb3_powerup.wav" )
 				end
-			end
 		end
 	end
 end

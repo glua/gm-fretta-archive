@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Cactus"
+	"version"	"2.0"
+
+	"author_name"	"Grea$eMonkey"
+	"author_email"	"ssjgamemaker@charter.net"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"mappattern"
+	{
+		"1"	"^c_"
+	}
+	"fretta_maps"
+	{
+		"1"	"^c_"
+	}
+
+	"selectable"	"1"
+	"description"	"Humans try to catch flying cacti with zany weapons and contraptions, while cacti try to evade an kill all humans."
+}

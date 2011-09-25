@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$basetexture" "gtv/weapons/weapon_gtv_shotgun"
+	"$nolod" 1
+"$vertexcolor"	"1"
+"$vertexalpha"	"1"
+$alpha 1
+$translucent 1
+$softedges 1
+$edgesoftnessstart 1
+$edgesoftnessend 0
+
+$glow 1
+$glowcolor "[1 0 0]"
+$glowstart 0
+$glowend 1
+
+$distancealpha 1
+$ignorez 1
+}

@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"gtv/gtvsplash"
+	"$translucent" "1"
+	//"$distancealpha" 1
+	//"$softedges" 1
+	//"$edgesoftnessstart" 0.5
+	//"$edgesoftnessend" 0.3
+	//"$glow"	"1"
+	//"$glowcolor"	"[1 1 1]"
+	//"$glowstart"	"0.0"
+	//"$glowend"	"1"
+}

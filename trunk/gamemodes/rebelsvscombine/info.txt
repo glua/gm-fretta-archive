@@ -1,0 +1,23 @@
+"Gamemode"
+{
+	"name"		"Rebels vs. Combine"
+	"version"	"1.0"
+
+	"author_name"	"TotalMark, Rambo_6, Worshipper, dime, Dr. Dare, Svendbenno, Hlfdead"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^dm_"
+		"2"	"^de_"
+		"3"	"^cs_"
+	}
+
+	"selectable"	"1"
+	"description"	"Rebels vs. Combine"
+}

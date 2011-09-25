@@ -1,0 +1,38 @@
+"Unlittwotexture"
+{
+
+	"$basetexture" "gtv/lava"
+	"$texture2" "gtv/lava"
+
+	"$bumpmap" "Nature/slime_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "slime"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[ 0,6 1 1]"
+	//"$envmapcontrast" "1"
+	"%compileSlime" 1
+	"$selfillum" "1"
+	
+	"$bottommaterial" "nature/toxicslime002a_beneath"
+	
+	//"$fogenable" 1
+	//"$fogcolor" "{29 99 39}"
+	//"$fogstart" 1.00
+	//"$fogend" 100.00
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate 0.02
+			texturescrollangle 270
+		}
+		"TextureScroll"
+		{
+			texturescrollvar "$texture2transform"
+			texturescrollrate 0.03
+			texturescrollangle 270
+		}
+			
+	}
+}

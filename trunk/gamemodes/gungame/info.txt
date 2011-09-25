@@ -18,6 +18,11 @@
 		"2"	"^cs_"
 	}
 
+	"mappattern"
+	{
+		"1"	"^gg_"
+	}
+
 	"selectable"	"1"
 	"description"	"Get a better gun for every kill, and race to the highest level"
 }
