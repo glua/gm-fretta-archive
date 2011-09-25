@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Dodgeball"
+	"version"	"3.0"
+
+	"author_name"	"Termy58"
+	"author_email"	"Termy58@gmail.com"
+	"author_url"	"http://www.termy58.com/"
+	
+	"mappattern"
+	{
+		"1"	"^db_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^db_"
+	}
+	
+	"selectable"	"1"
+
+	"icon"		""
+	"info"	"Throw dodgeballs at eachother"
+	"hide"		"0"
+}

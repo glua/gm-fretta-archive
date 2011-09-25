@@ -1,0 +1,22 @@
+"Gamemode"
+{
+	"name"		"Plane Crazy"
+	"version"	"1"
+
+	"author_name"	"garry"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^gm_"
+		"2"	"^pc_"
+	}
+
+	"selectable"	"1"
+	"description"	"Little plane game"
+}

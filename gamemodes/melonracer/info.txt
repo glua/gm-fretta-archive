@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"MelonRacer"
+	"version"	"1.0"
+
+	"author_name"	"garry"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		""
+
+	"mappattern"
+	{
+		"1"	"^mr_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^mr_"
+	}
+	
+	"selectable"	"1"
+}

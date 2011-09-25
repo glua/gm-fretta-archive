@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"vgui/gradient-l"
+	"$ignorez"		1
+	"$vertexcolor" 		1
+	"$vertexalpha" 		1
+	"$nolod" 			1
+}

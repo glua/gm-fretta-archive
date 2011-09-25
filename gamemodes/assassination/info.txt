@@ -1,0 +1,22 @@
+"Gamemode"
+{
+	"name"		"Assassination"
+	"version"	"1.0"
+
+	"author_name"	"SteveUK"
+	"author_email"	""
+	"author_url"	"http://s-swires.org/"
+
+	"fretta_maps"
+	{
+		"1"	"^as_" // Retro file prefix
+		"2" "^cs_" // support cs_ maps too
+	}
+
+	"selectable"	"1"
+	
+	"icon"			""
+	"info"			"Combine vs. Rebels.\nThe Combine soldiers must escort Dr. Breen to safety while the Rebel forces must assassinate him."
+	"description"	"Combine vs. Rebels.\nThe Combine soldiers must escort Dr. Breen to safety while the Rebel forces must assassinate him."
+	"hide"			"0"
+}

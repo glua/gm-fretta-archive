@@ -1,0 +1,21 @@
+"Gamemode"
+{
+	"name"		"Nine Tenths"
+	"version"	"1.1"
+
+	"author_name"	"Nerdboy"
+	"author_email"	"nerdboy6@gmail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		"Possession is nine tenths of the law"
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^910_"
+	}
+
+	"selectable"	"1"
+	"description"	"Possession is nine tenths of the law"
+}

@@ -1,0 +1,33 @@
+"Gamemode"
+{
+        "name"  "One In The Chamber"
+        "version "1.0 Beta"
+        "up_date "2010"
+        "author_name" "Adobe Ninja"
+        "author_email" "admin@adobeninja.net"
+        "author_url" "http://adobeninja.net"
+        
+        "info"  "One Bullet, A Knife, Can you win ?"
+        "icon" ""
+        "hide" "0"
+
+        "mappattern"
+        {
+            "1" "^cs_"
+        }
+        
+        "fretta_maps"
+        {
+            "1" "^cs_"
+	    "1" "^de_"
+
+        }
+        
+        "GCFRequires"
+        {
+            "1" "240"
+        }
+        
+        "selectable"    "1"
+        "description"   "One Bullet, A Knife, Can you win ?"
+}

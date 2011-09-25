@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Pedo Bear Escape"
+	"version"	"1"
+
+	"author_name"	"Paul Sweeney"
+	"author_email"	"matchheadstudios@gmail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^pb_"
+	}
+	
+	"mappattern"
+	{
+		"1"	"^pb_"
+	}
+
+	"selectable"	"1"
+	"description"	"Run like F**k from Pedo Bear or be killed."
+}

@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"OddBall"
+	"version"	"1.0"
+
+	"author_name"	"BlackOps7799"
+	"author_email"	"blackops7799@gmail.com"
+	"author_url"	""
+	
+	"mappattern"
+	{
+		"1"	"^ob_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^ob_"
+	}
+	
+	"selectable"	"1"
+
+	"icon"		""
+	"info"	"Capture the skull and keep possession of it for the longest amount of time."
+	"hide"		"0"
+}

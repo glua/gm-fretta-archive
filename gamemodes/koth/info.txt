@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"King Of The Hill"
+	"version"	"1"
+
+	"author_name"	"Rambo_6"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^kh_"
+	}
+	"mappattern"
+	{
+		"1"	"^kh_"
+	}
+
+	"selectable"	"1"
+	"description"	"Stand on the hill to earn points for your team"
+}

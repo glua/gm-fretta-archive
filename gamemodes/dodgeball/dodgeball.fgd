@@ -1,0 +1,62 @@
+@include "base.fgd"
+@include "halflife2.fgd"
+
+@SolidClass = func_ladder : 
+	"Ladder. Players will be able to move freely along this brush, as if it was a ladder." +
+	"Apply the toolsinvisibleladder material to a func_ladder brush."
+[
+]
+
+@PointClass base(Targetname) = info_gamemode : "Defines the gamemode"
+[
+	GamemodeName(string) : "Gamemode Name" : "dodgeball" : "The gamemode (by name) to use"	
+]
+
+@PointClass base(Targetname, Origin) = lua_run : "Runs Lua Code"
+[
+	Code(string) : "Code" : "" : "Lua code to run when triggered"
+	
+	input RunCode(void) : "Run Code that was defined in the entity"
+	input RunPassedCode(string) : "Run code that was passed as a variable"
+]
+
+@PointClass base(PlayerSpawn) studio("models/editor/playerstart.mdl") = gmod_redstart :
+	"Red spawn"
+[
+]
+
+@PointClass base(PlayerSpawn) studio("models/editor/playerstart.mdl") = gmod_redjail :
+	"Red jail"
+[
+]
+
+@PointClass base(PlayerSpawn) studio("models/editor/playerstart.mdl") = gmod_bluestart :
+	"Blue spawn"
+[
+]
+
+@PointClass base(PlayerSpawn) studio("models/editor/playerstart.mdl") = gmod_bluejail :
+	"Blue jail"
+[
+]
+
+@PointClass base(Targetname, Angles) color(255 0 0) studio() = gmod_dodgeballdispencer : 
+	"Dispences a dodgeball every round"
+[
+]
+
+@PointClass base(Targetname, Angles) color(255 0 0) studio() = doormovepos : 
+	"Set this in a place unseen by players to place the door when not needed"
+[
+]
+
+@PointClass base(Targetname, Angles) color(0 255 0) studio() = logic_dodgeball : 
+	"Dodgeball Logic"
+[
+	output OnStartWarmup(void) : "Warmup, pre round"
+	output OnStartRound(void) : "Start the round"
+	output OnEndRound(void) : "End the round"
+	output OnBlueWins(void) : "Blue wins the game, called at the same time OnEndRound is"
+	output OnRedWins(void) : "Red wins the game, called at the same time OnEndRound is"
+	
+]

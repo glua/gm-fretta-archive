@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Jumpjet"
+	"version"	"1"
+
+	"author_name"	"Rambo_6"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^jj_"
+	}
+	"mappattern"
+	{
+		"1"	"^jj_"
+	}
+
+
+	"selectable"	"1"
+	"description"	"Sidescrolling CTF with jet boots and lots of gore!"
+}
