@@ -1,0 +1,22 @@
+"Gamemode"
+{
+	"name"		"Snifer Fretta"
+	"version"	"1"
+
+	"author_name"	"David Emett (Fretta conversion by Duncan Stead)"
+	"author_email"	""
+	"author_url"	"http://sp4m.net/"
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^cs_"
+		"2"	"^de_"
+	}
+
+	"selectable"	"1"
+	"description"	"Sniper versus Knifer - the ultimate battle"
+}
