@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Gamemaster"
+	"version"	"1.0"
+
+	"author_name"	"Dlaor"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1" "^gmaster_"
+	}
+
+	"mappattern"
+	{
+		"1" "^gmaster_"
+	}
+	
+	"selectable"	"1"
+	"description"	"As the Gamemaster, influence the platform level to kill all the runners!"
+}

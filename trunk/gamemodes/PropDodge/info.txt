@@ -1,0 +1,24 @@
+"Gamemode"
+{
+	"name"		"PropDodge"
+	"version"	"1"
+
+	"author_name"	"Redx475 and Jakegadget"
+	"author_email"	"redx475@gameavengers.net"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+	
+	"fretta_maps"
+	{
+		"1"	"^pd_"
+		"2"	"^gm_"
+		"4"	"^cs_"
+		"5"	"^de_"
+	}
+
+	"selectable"	"1"
+	"description"	"Hit the other team with your props!"
+}

@@ -1,0 +1,24 @@
+"Gamemode"
+{
+	"name"		"Capture the Flag"
+	"version"	"1.0"
+
+	"author_name"	"SteveUK"
+	"author_email"	""
+	"author_url"	"http://s-swires.org/"
+
+	"fretta_maps"
+	{
+		"1"	"^cs_"
+		"2"	"^de_"
+		"3"	"^dod_"
+		"4"	"^ctf_"
+	}
+
+	"selectable"	"1"
+	
+	"icon"		""
+	"info"		"Basic capture the flag gamemode."
+	"description"	"Try and capture the enemy flag in this shameless Counter-Strike Source ripoff."
+	"hide"		"0"
+}

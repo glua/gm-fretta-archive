@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"ta/ta-techie-barrier"
+	"$vertexcolor" 		1
+	"$vertexalpha" 		1
+	"$nolod" 			1
+}

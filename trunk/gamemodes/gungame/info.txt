@@ -1,0 +1,23 @@
+"Gamemode"
+{
+	"name"		"Garry's Mod Gun Game"
+	"version"	"0.1"
+
+	"author_name"	"Dylan Winn"
+	"author_email"	""
+	"author_url"	"http://www.dylanwinn.com/"
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^gg_"
+		"2"	"^de_"
+		"2"	"^cs_"
+	}
+
+	"selectable"	"1"
+	"description"	"Get a better gun for every kill, and race to the highest level"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "nature/echo_cliffface02"
+	"$bumpmap" "nature/echo_cliffface02_normal"
+	"$surfaceprop" "Rock"
+}

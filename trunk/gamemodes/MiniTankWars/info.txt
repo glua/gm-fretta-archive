@@ -1,0 +1,21 @@
+"Gamemode"
+{
+	"name"		"MiniTank Wars"
+	"version"	"1.2"
+
+	"author_name"	"BMCha and Echo 199"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^mtw_"
+	}
+
+	"selectable"	"1"
+	"description"	"Arcadey Deathmatch...with Tanks."
+}

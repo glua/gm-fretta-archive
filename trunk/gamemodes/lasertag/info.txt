@@ -1,0 +1,21 @@
+"Gamemode"
+{
+	"name"		"LaserTag"
+	"version"	"1.0"
+
+	"author_name"	"Fuzzylightning"
+	"author_email"	"Fuzzylightning@live.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^lt_"
+	}
+
+	"selectable"	"1"
+	"description"	"Shooter based gamemode with powerups and action-packed continuous play."
+}

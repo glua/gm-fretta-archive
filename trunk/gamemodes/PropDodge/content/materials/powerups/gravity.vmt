@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "powerups/gravity"
+	"$translucent" 1
+}

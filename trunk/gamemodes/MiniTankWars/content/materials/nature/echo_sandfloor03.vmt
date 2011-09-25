@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "nature/echo_sandfloor03"
+	"$bumpmap" "nature/echo_sandfloor03_normal"
+	"$surfaceprop" "Gravel"
+}

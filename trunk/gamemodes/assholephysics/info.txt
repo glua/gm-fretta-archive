@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Asshole Physics"
+	"version"	"1"
+
+	"author_name"	"Rambo_6"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^ap_"
+	}
+	"mappattern"
+	{
+		"1"	"^ap_"
+	}
+
+	"selectable"	"1"
+	"description"	"Break more props than the enemy team!"
+}

@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/echo_sandfloor03"
+	"$bumpmap" "nature/echo_sandfloor03_normal"
+	"$basetexture2" "nature/echo_cliffface02"
+	"$bumpmap2" "nature/echo_cliffface02_normal"
+	"$surfaceprop" "Gravel"
+	"$surfaceprop2" "Rock"
+}

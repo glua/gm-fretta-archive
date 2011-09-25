@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gmaster/grid_selected_error"
+	"$selfillum" "1"
+	"$additive" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

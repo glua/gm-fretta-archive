@@ -1,0 +1,23 @@
+"Gamemode"
+{
+	"name"		"Contract Killers"
+	"version"	"1"
+
+	"author_name"	"St0rmforce"
+	"author_email"	"St0rmforce.firest0rm@googlemail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^ck_"
+		"2"	"^dm_"
+		"3"	"^suicide_"
+	}
+
+	"selectable"	"1"
+	"description"	"Kill your target before somebody kills you"
+}
