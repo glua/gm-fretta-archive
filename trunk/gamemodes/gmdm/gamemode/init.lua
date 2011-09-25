@@ -1,4 +1,5 @@
--- Includes
+AddCSLuaFile( "maps/default_map.lua" )
+
 include( "shared.lua" )
 include( "resources.lua" )
 

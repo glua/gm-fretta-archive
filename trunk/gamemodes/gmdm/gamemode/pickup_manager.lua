@@ -37,11 +37,13 @@ pickup.PickupTypes[6] = { name="gmdm_rail",
 					model="models/weapons/w_IRifle.mdl", //ar2?
 					customammo="Rails",
 					ammoamount=16 }
+					
 pickup.PickupTypes[7] = { name="gmdm_crossbow", 
 					nicename="Crossbow",
 					model="models/weapons/w_crossbow.mdl",
 					customammo="Bolts",
 					ammoamount=10 }
+					
 pickup.PickupTypes[8] = { name="gmdm_electricity_nades", 
 					nicename="Electricity Grenade",
 					model="models/weapons/w_grenade.mdl",

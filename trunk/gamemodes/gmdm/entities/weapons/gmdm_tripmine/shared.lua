@@ -5,18 +5,19 @@ end
 
 
 SWEP.CustomSecondaryAmmo = true
+SWEP.HoldType = "slam"
 
 if ( CLIENT ) then
 
+	SWEP.PrintName			= "Trip Mines"			
+	SWEP.Slot				= 5
+	SWEP.SlotPos			= 0
+	SWEP.DrawAmmo			= true
 	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/mine" )
-
+	
 end
 
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "#TripMines"			
-SWEP.Slot				= 5
-SWEP.SlotPos			= 0
-SWEP.DrawAmmo			= true
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_slam.mdl"
 SWEP.WorldModel			= "models/weapons/w_slam.mdl"
@@ -25,8 +26,8 @@ SWEP.ConstantAccuracy	= true
 SWEP.Primary.Cone		= 0.0;
 
 function SWEP:Initialize( )
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "grenade" )	
 end
 
 function SWEP:FirstTimePickup( Owner )

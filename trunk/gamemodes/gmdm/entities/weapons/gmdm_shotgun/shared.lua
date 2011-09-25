@@ -3,11 +3,19 @@ if ( SERVER ) then
 	AddCSLuaFile( "shared.lua" )
 end
 
+SWEP.HoldType = "shotgun"
+
+if ( CLIENT ) then
+
+	SWEP.PrintName			= "#Shotgun"			
+	SWEP.Slot				= 2
+	SWEP.SlotPos			= 1
+	SWEP.DrawAmmo			= true
+	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/fireball" )
+	
+end
+
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "#Shotgun"			
-SWEP.Slot				= 2
-SWEP.SlotPos			= 1
-SWEP.DrawAmmo			= true
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_shotgun.mdl"
 SWEP.WorldModel			= "models/weapons/w_shotgun.mdl"
@@ -26,8 +34,8 @@ end
 
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "smg" )
 	self:SetNeedsPump( false )
 	
 	self.LastTime = 0;

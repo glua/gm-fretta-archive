@@ -1,13 +1,24 @@
 
+if ( SERVER ) then
+	AddCSLuaFile( "shared.lua" )
+end
+
+SWEP.HoldType = "physgun"
+
+if ( CLIENT ) then
+
+	SWEP.PrintName			= "Egon"
+	SWEP.Slot				= 4
+	SWEP.SlotPos			= 0
+	SWEP.DrawAmmo			= true
+	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/ammo" )
+
+end
+
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "Egon"			
-SWEP.Slot				= 4
-SWEP.SlotPos			= 0
-SWEP.DrawAmmo			= true
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_superphyscannon.mdl"
 SWEP.WorldModel			= "models/weapons/w_physics.mdl"
-
 SWEP.CustomSecondaryAmmo = true
 
 local sndPowerUp		= Sound("Airboat.FireGunHeavy")
@@ -15,14 +26,11 @@ local sndAttackLoop 	= Sound("Airboat_fan_idle")
 local sndPowerDown		= Sound("Town.d1_town_02a_spindown")
 local sndNoAmmo			= Sound("Weapon_Shotgun.Empty")
 
-if ( CLIENT ) then
-	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/ammo" )
-end
-
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType( self.HoldType )
+	self:SetSkin(1)
 	self:GMDMInit()
-	self:SetWeaponHoldType( "smg" )
 	
 end
 

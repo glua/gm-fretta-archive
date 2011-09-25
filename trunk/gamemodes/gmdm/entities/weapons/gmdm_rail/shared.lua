@@ -3,20 +3,20 @@ if ( SERVER ) then
 	AddCSLuaFile( "shared.lua" )
 end
 
-
 SWEP.CustomSecondaryAmmo = true
+SWEP.HoldType = "smg"
 
 if ( CLIENT ) then
 
-	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/fireball" )
-
+	SWEP.PrintName			= "Rail Gun"			
+	SWEP.Slot				= 4
+	SWEP.SlotPos			= 0
+	SWEP.DrawAmmo			= true
+	//SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/ammo" )
+	
 end
 
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "#Rail Gun"			
-SWEP.Slot				= 4
-SWEP.SlotPos			= 0
-SWEP.DrawAmmo			= true
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_IRifle.mdl"
 SWEP.WorldModel			= "models/weapons/w_IRifle.mdl"
@@ -27,8 +27,8 @@ local Launch_Sound = Sound( "Weapon_AR2.NPC_Double" )
 
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "smg" )
 	
 end
 

@@ -23,6 +23,10 @@ function ENT:Draw()
 		 self.Entity:SetModelWorldScale(Vector(1,1,1))
 		 self.Entity:SetMaterial("")
 		 
+		 if self.Entity:GetModel() == "models/weapons/w_physics.mdl" then
+			self.Entity:SetSkin(1)
+		 end
+		 
 		 self.Entity:SetColor(255,255,255,255-timeToRespawn)
 		 self.Entity:DrawModel()
 		

@@ -7,12 +7,19 @@ SWEP.PrintName			= "GMDM Weapon"
 SWEP.Slot				= 3		// Slot in the weapon selection menu
 SWEP.SlotPos			= 6		// Position in the slot
 SWEP.DrawAmmo			= true	// Should draw the default HL2 ammo counter
-SWEP.DrawCrosshair		= true 	// Should draw the default crosshair
+SWEP.DrawCrosshair		= true 	// Should draw the default crosshair\
+SWEP.DrawWeaponInfoBox	= true					// Should draw the weapon info box
+SWEP.BounceWeaponIcon   = true					// Should the weapon icon bounce?
+SWEP.SwayScale			= 1.0					// The scale of the viewmodel sway
+SWEP.BobScale			= 1.0					// The scale of the viewmodel bob
+
+SWEP.RenderGroup 		= RENDERGROUP_OPAQUE
 
 SWEP.Spawnable			= true	// Is spawnable via GMOD's spawn menu
 SWEP.AdminSpawnable		= true	// Is spawnable by admins
 
 SWEP.WepSelectIcon			= surface.GetTextureID( "weapons/swep" )	// Weapon Selection Menu texture
+SWEP.SpeechBubbleLid	= surface.GetTextureID( "gui/speech_lid" )
 
 function SWEP:GMDMInit()
 
@@ -21,10 +28,10 @@ function SWEP:GMDMInit()
 	
 end
 
-function SWEP:SetWeaponHoldType( t )
+/*function SWEP:SetWeaponHoldType( t )
 	// Just a fake function so we can define 
 	// weapon holds in shared files without errors
-end
+end*/
 
 function SWEP:PrintWeaponInfo( x, y, alpha )
 end

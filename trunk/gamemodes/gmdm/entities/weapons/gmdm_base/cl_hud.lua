@@ -17,15 +17,11 @@ function SWEP:DrawCrosshairBit( x, y, width, height )
 	surface.SetDrawColor( 0, 0, 0, 90 );
 	surface.DrawRect( x, y, width, height );
 	
-	surface.SetDrawColor( cl_gmdm_xhair_r:GetInt(), cl_gmdm_xhair_g:GetInt(), cl_gmdm_xhair_b:GetInt(), cl_gmdm_xhair_a:GetInt() );	
+	surface.SetDrawColor( 255, 0, 0, 180 );	
 	surface.DrawRect( x+1, y+1, width-2, height-2 );
 	
 end
 
-cl_gmdm_xhair_r = CreateClientConVar( "crosshair_r", 255, true, false );
-cl_gmdm_xhair_g = CreateClientConVar( "crosshair_g", 255, true, false );
-cl_gmdm_xhair_b = CreateClientConVar( "crosshair_b", 255, true, false );
-cl_gmdm_xhair_a = CreateClientConVar( "crosshair_a", 200, true, false );
 cl_gmdm_xhair_scale = CreateClientConVar( "crosshair_scale", 1, true, false );
 cl_gmdm_crosshair = GetConVar( "crosshair" );
 

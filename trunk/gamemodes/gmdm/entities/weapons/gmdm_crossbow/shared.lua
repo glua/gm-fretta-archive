@@ -3,20 +3,20 @@ if ( SERVER ) then
 	AddCSLuaFile( "shared.lua" )
 end
 
-
 SWEP.CustomSecondaryAmmo = true
+SWEP.HoldType = "crossbow"
 
 if ( CLIENT ) then
 
+	SWEP.PrintName			= "Crossbow"
+	SWEP.Slot				= 3
+	SWEP.SlotPos			= 0
+	SWEP.DrawAmmo			= true
 	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/fireball" )
 
 end
 
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "Crossbow"			
-SWEP.Slot				= 3
-SWEP.SlotPos			= 0
-SWEP.DrawAmmo			= true
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_crossbow.mdl"
 SWEP.WorldModel			= "models/weapons/w_crossbow.mdl"
@@ -27,8 +27,8 @@ local Fire_Sound = Sound("weapons/crossbow/fire1.wav")
 
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "shotgun" )
 	
 end
 

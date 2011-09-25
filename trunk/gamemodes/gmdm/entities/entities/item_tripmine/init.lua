@@ -13,9 +13,7 @@ ENT.Remote = false;
 ---------------------------------------------------------*/
 function ENT:Initialize()
 	self:DrawShadow( false )
-	self:SetModel( "models/dav0r/buttons/button.mdl" )
-	self:SetMaterial( "models/debug/debugwhite" )
-	self:SetColor( 0, 0, 0, 255 )
+	self:SetModel( "models/weapons/w_slam.mdl" )
 	self:PhysicsInit( SOLID_VPHYSICS )
 	
 	self:SetCollisionGroup( COLLISION_GROUP_WEAPON )

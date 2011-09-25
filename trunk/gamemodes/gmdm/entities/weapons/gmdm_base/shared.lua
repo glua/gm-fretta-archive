@@ -1,12 +1,26 @@
+include( "ai_translations.lua" )
+include("sh_anim.lua")
+
+SWEP.Author			= ""
+SWEP.Contact		= ""
+SWEP.Purpose		= ""
+SWEP.Instructions	= ""
 
 SWEP.ViewModelFOV	= 55
+SWEP.ViewModelFlip	= false
+SWEP.ViewModel		= "models/weapons/v_pistol.mdl"
+SWEP.WorldModel		= "models/weapons/w_357.mdl"
+SWEP.AnimPrefix		= "python"
+
+SWEP.HoldType		= "smg"
+
+SWEP.Spawnable			= false
+SWEP.AdminSpawnable		= false
 
 GMDMLastShoot = 0
 
 SWEP.CustomSecondaryAmmo = false
 SWEP.Primary.Ammo = "Buckshot"
-
-SWEP.HoldType = "smg"
 
 SWEP.AllowRicochet = true;
 SWEP.AllowPenetration = true;
@@ -21,7 +35,6 @@ SWEP.CanSprintAndShoot = false;
 function SWEP:Initialize()
 
 	if(SERVER ) then
-		self:SetWeaponHoldType( self.HoldType )
 		self:SetNPCMinBurst( 30 )
 		self:SetNPCMaxBurst( 30 )
 		self:SetNPCFireRate( 0.01 )
