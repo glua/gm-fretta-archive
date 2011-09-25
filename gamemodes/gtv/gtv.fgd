@@ -1,0 +1,54 @@
+@include "base.fgd"
+@include "halflife2.fgd"
+
+@PointClass base(Targetname, Origin, Parentname) = gtv_point_itemspawn : "Spawns items"
+[
+
+	RespawnTime(float) : "Respawn Time" : "30.0" : "Time in seconds for the item to respawn"
+	NoAutoSpawn(choices) : "No Automatic Spawn" : 0 : "When set, the item will only spawn by the 'spawn' input" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	ItemType(choices) : "Item Type" : 0 : "The type of item this entity will spawn" =
+	[
+		0 : "Small Ammo"
+		1 : "Medium Ammo"
+		2 : "Large Ammo"
+		3 : "Health Kit"
+		4 : "Machinegun"
+		5 : "Shotgun"
+		6 : "Minigun"
+		7 : "Rocket Launcher"
+		8 : "Ion-U Gun"
+		9 : "Flamethrower"
+		10 : "Bee Gun"
+		11 : "Frag Grenades"
+		12 : "Force Grenades"
+		13 : "Incendiary Grenades"
+		14 : "Shrapnel Grenades"
+		15 : "Small Points"
+		16 : "Medium Points"
+		17 : "Big Points"
+	]
+	
+	input Spawn(void) : "Spawn the powerup"
+	input Unspawn(void) : "Remove the powerup if it's spawned"
+]
+
+@PointClass base(Targetname, Origin, Angles, Parentname) studio( "models/player.mdl") = gtv_togglespawn : "Toggleable spawn"
+[	
+
+	StartEnabled(choices) : "Start Enabled" : 1 : "When set, the spawn point will start active" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	AutoDisable(choices) : "Automatically diable after spawn" : 0 : "When set, the spawn point will disable itself after being used" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	input Enable(void) : "Enable the spawn point"
+	input Disable(void) : "Disable the spawn point"
+]

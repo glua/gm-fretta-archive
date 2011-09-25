@@ -1,0 +1,30 @@
+// envmaptint_fix
+"Unlittwotexture"
+{
+
+	"$basetexture" "gtv/lava"
+	"$texture2" "gtv/lava"
+
+	"$bumpmap" "Nature/slime_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "slime"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[ 0,6 1 1]"
+	//"$envmapcontrast" "1"
+	"$selfillum" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate 0.16
+			texturescrollangle 270
+		}
+		"TextureScroll"
+		{
+			texturescrollvar "$texture2transform"
+			texturescrollrate 0.23
+			texturescrollangle 270
+		}
+	}
+}

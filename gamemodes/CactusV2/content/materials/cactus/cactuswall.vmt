@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cactus/cactuswall"
+	"$bumpmap" "cactus/cactuswall_normal"
+	"$surfaceprop" "Concrete"
+	"$surfaceprop2" "Brick"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$nodecal" 1
+}

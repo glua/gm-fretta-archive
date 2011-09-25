@@ -1,0 +1,24 @@
+"Gamemode"
+{
+	"name"		"Ultimate Hide and Seek 2.0"
+	"version"	"2.0"
+
+	"author_name"	"Hardy"
+	"author_email"	"hardy@wiremod.ru"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		"Find the hiders, but hide from the seekers!"
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^dm_"
+		"2"	"^cs_"
+		"3"	"^de_"
+		"4" "^gm_hideandseek_"
+	}
+
+	"selectable"	"1"
+	"description"	"Find the hiders, but hide from the seekers!"
+}

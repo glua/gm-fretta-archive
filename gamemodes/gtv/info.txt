@@ -1,0 +1,29 @@
+"Gamemode"
+{
+	"name"		"GARRY TV"
+	"version"	"-4"
+
+	"author_name"	"TEAM REALTALK"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^gtv_"
+	}
+
+	"mappattern"
+	{
+		"1" "^gtv_"
+	}
+
+	
+	"selectable"	"1"
+	"description"	"Top Down Action!"
+	
+	"override"		"0"
+}
