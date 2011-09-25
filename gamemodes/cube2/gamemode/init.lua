@@ -1,19 +1,18 @@
-include( "shared.lua" )
-include( "chat.lua" )
-include( "endgame.lua" )
-include( "fade.lua" )
-include( "finish.lua" )
-include( "gib.lua" )
-include( "shift.lua" )
-include( "view.lua" )
+include( "shared.lua" );
+include( "chat.lua" );
+include( "endgame.lua" );
+include( "fade.lua" );
+include( "finish.lua" );
+include( "gib.lua" );
+include( "shift.lua" );
+include( "view.lua" );
 
-AddCSLuaFile( "cl_init.lua" )
-AddCSLuaFile( "shared.lua" )
-AddCSLuaFile( "cl_hud.lua" )
-AddCSLuaFile( "cl_gib.lua" )
-AddCSLuaFile( "cl_miclimit.lua" )
-AddCSLuaFile( "cl_effects.lua" )
-AddCSLuaFile( "resources.lua" )
+AddCSLuaFile( "cl_init.lua" );
+AddCSLuaFile( "shared.lua" );
+AddCSLuaFile( "cl_hud.lua" );
+AddCSLuaFile( "cl_gib.lua" );
+AddCSLuaFile( "cl_miclimit.lua" );
+AddCSLuaFile( "cl_effects.lua" );
 
 game.ConsoleCommand( "net_maxfilesize 64\n" );
 

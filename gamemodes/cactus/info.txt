@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Cactus"
+	"version"	"1.0"
+
+	"author_name"	"Grea$eMonkey"
+	"author_email"	""
+	"author_url"	""
+
+	"fretta_maps"
+	{
+		"1"	"^c_"
+	}
+	"mappattern"
+	{
+		"1"	"^c_"
+	}
+
+	"selectable"	"1"
+	
+	"icon"		""
+	"info"		"Cactus cactus cactus cactus..."
+	"description"	"Catch as many cacti as you can!"
+	"hide"		"0"
+}

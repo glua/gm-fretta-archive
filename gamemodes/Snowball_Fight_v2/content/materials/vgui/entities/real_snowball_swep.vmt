@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/real_snowball_swep"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

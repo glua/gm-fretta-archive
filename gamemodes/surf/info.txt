@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Surf"
+	"version"	"1"
+
+	"author_name"	"Zargero"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^surf_"
+	}
+	"mappattern"
+	{
+		"1"	"^surf_"
+	}
+
+	"selectable"	"1"
+	"description"	"Surf your way to the end and kill the other team."
+}

@@ -1,0 +1,1238 @@
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\counter-strike source\cstrike\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20493 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 71 texinfos to 44
+Reduced 10 texdatas to 8 (215 bytes to 144)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+ 116 portalclusters
+ 307 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 10030
+Average clusters visible: 86
+Building PAS...
+Average clusters audible: 116
+visdatasize:4417  compressed from 3712
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+445 faces
+322988 square feet [46510272.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+445 patches before subdivision
+19085 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20461 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 71 texinfos to 44
+Reduced 10 texdatas to 8 (215 bytes to 144)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+ 116 portalclusters
+ 307 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 10030
+Average clusters visible: 86
+Building PAS...
+Average clusters audible: 116
+visdatasize:4417  compressed from 3712
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+445 faces
+322988 square feet [46510272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+445 patches before subdivision
+19085 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1861061, max 434
+transfer lists:  14.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3392, 3767, 1707)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(377, 451, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(74, 94, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 21, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0161 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 54/8192          648/98304    ( 0.7%) 
+brushsides             366/65536        2928/524288   ( 0.6%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               589/65536        7068/786432   ( 0.9%) 
+nodes                  224/65536        7168/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  445/65536       24920/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              143/65536        8008/3670016  ( 0.2%) 
+leaves                 228/65536        7296/2097152  ( 0.3%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            149/65536         298/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2666/512000      10664/2048000  ( 0.5%) 
+edges                 1502/256000       6008/1024000  ( 0.6%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             38/32768         380/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           513/65536        1026/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      421228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4417/16777216 ( 0.0%) 
+entdata               [variable]        4880/393216   ( 1.2%) 
+LDR ambient table      228/65536         912/262144   ( 0.3%) 
+HDR ambient table      228/65536         912/262144   ( 0.3%) 
+LDR leaf ambient      1567/65536       43876/1835008  ( 2.4%) 
+HDR leaf ambient       228/65536        6384/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212011/0        ( 0.0%) 
+physics               [variable]       20461/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1204
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+10 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (23325 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 45
+Reduced 11 texdatas to 9 (239 bytes to 168)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+ 148 portalclusters
+ 398 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 16706
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 148
+visdatasize:6824  compressed from 7104
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+487 faces
+322965 square feet [46507016.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+487 patches before subdivision
+19643 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1936669, max 436
+transfer lists:  14.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4167, 4646, 1924)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(431, 518, 246)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(84, 106, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(17, 24, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0168 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             414/65536        3312/524288   ( 0.6%) 
+planes                 206/65536        4120/1310720  ( 0.3%) 
+vertexes               673/65536        8076/786432   ( 1.0%) 
+nodes                  260/65536        8320/2097152  ( 0.4%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  487/65536       27272/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              143/65536        8008/3670016  ( 0.2%) 
+leaves                 264/65536        8448/2097152  ( 0.4%) 
+leaffaces              607/65536        1214/131072   ( 0.9%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2890/512000      11560/2048000  ( 0.6%) 
+edges                 1678/256000       6712/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             44/32768         440/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           603/65536        1206/131072   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      421088/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6824/16777216 ( 0.0%) 
+entdata               [variable]        3177/393216   ( 0.8%) 
+LDR ambient table      264/65536        1056/262144   ( 0.4%) 
+HDR ambient table      264/65536        1056/262144   ( 0.4%) 
+LDR leaf ambient      1935/65536       54180/1835008  ( 3.0%) 
+HDR leaf ambient       264/65536        7392/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212011/0        ( 0.0%) 
+physics               [variable]       23325/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1344
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+14 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21837 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 81 texinfos to 42
+Reduced 11 texdatas to 9 (239 bytes to 168)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+ 103 portalclusters
+ 281 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10247
+Average clusters visible: 99
+Building PAS...
+Average clusters audible: 103
+visdatasize:3508  compressed from 3296
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+313 faces
+202889 square feet [29216136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+313 patches before subdivision
+9033 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 267498, max 414
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4616, 4897, 2437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(430, 513, 244)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(84, 106, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(17, 23, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0079 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             382/65536        3056/524288   ( 0.6%) 
+planes                 180/65536        3600/1310720  ( 0.3%) 
+vertexes               459/65536        5508/786432   ( 0.7%) 
+nodes                  180/65536        5760/2097152  ( 0.3%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  313/65536       17528/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              118/65536        6608/3670016  ( 0.2%) 
+leaves                 184/65536        5888/2097152  ( 0.3%) 
+leaffaces              360/65536         720/131072   ( 0.5%) 
+leafbrushes            119/65536         238/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1974/512000       7896/2048000  ( 0.4%) 
+edges                 1199/256000       4796/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           315/65536         630/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      191804/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3508/16777216 ( 0.0%) 
+entdata               [variable]        3174/393216   ( 0.8%) 
+LDR ambient table      184/65536         736/262144   ( 0.3%) 
+HDR ambient table      184/65536         736/262144   ( 0.3%) 
+LDR leaf ambient      1143/65536       32004/1835008  ( 1.7%) 
+HDR leaf ambient       184/65536        5152/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212011/0        ( 0.0%) 
+physics               [variable]       21837/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 876
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+10 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15634 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 37
+Reduced 9 texdatas to 8 (193 bytes to 144)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+  48 portalclusters
+ 116 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2238
+Average clusters visible: 46
+Building PAS...
+Average clusters audible: 48
+visdatasize:964  compressed from 768
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+197 faces
+104551 square feet [15055431.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+197 patches before subdivision
+3935 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 129204, max 330
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2595, 2814, 1566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(404, 482, 242)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(83, 105, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(17, 24, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             280/65536        2240/524288   ( 0.4%) 
+planes                 162/65536        3240/1310720  ( 0.2%) 
+vertexes               265/65536        3180/786432   ( 0.4%) 
+nodes                  108/65536        3456/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  197/65536       11032/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              105/65536        5880/3670016  ( 0.2%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              224/65536         448/131072   ( 0.3%) 
+leafbrushes             81/65536         162/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1340/512000       5360/2048000  ( 0.3%) 
+edges                  807/256000       3228/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           141/65536         282/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       93748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         964/16777216 ( 0.0%) 
+entdata               [variable]        3172/393216   ( 0.8%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       605/65536       16940/1835008  ( 0.9%) 
+HDR leaf ambient       112/65536        3136/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212011/0        ( 0.0%) 
+physics               [variable]       15634/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 526
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+4 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15634 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 37
+Reduced 9 texdatas to 8 (193 bytes to 144)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+  48 portalclusters
+ 116 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2238
+Average clusters visible: 46
+Building PAS...
+Average clusters audible: 48
+visdatasize:964  compressed from 768
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+197 faces
+104551 square feet [15055431.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+197 patches before subdivision
+3935 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 129204, max 330
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14866, 15022, 10954)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2564, 2944, 1986)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(585, 703, 430)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(115, 153, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 38, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             280/65536        2240/524288   ( 0.4%) 
+planes                 162/65536        3240/1310720  ( 0.2%) 
+vertexes               265/65536        3180/786432   ( 0.4%) 
+nodes                  108/65536        3456/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  197/65536       11032/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              105/65536        5880/3670016  ( 0.2%) 
+leaves                 112/65536        3584/2097152  ( 0.2%) 
+leaffaces              224/65536         448/131072   ( 0.3%) 
+leafbrushes             81/65536         162/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1340/512000       5360/2048000  ( 0.3%) 
+edges                  807/256000       3228/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           141/65536         282/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       93748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         964/16777216 ( 0.0%) 
+entdata               [variable]        3189/393216   ( 0.8%) 
+LDR ambient table      112/65536         448/262144   ( 0.2%) 
+HDR ambient table      112/65536         448/262144   ( 0.2%) 
+LDR leaf ambient       643/65536       18004/1835008  ( 1.0%) 
+HDR leaf ambient       112/65536        3136/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      174169/0        ( 0.0%) 
+physics               [variable]       15634/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 526
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+5 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16290 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 38
+Reduced 10 texdatas to 9 (217 bytes to 168)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+  56 portalclusters
+ 152 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3032
+Average clusters visible: 54
+Building PAS...
+Average clusters audible: 56
+visdatasize:1236  compressed from 896
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+202 faces
+103524 square feet [14907598.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+202 patches before subdivision
+3880 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 130354, max 334
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(11020, 11251, 8332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1848, 2157, 1474)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(430, 527, 326)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(84, 113, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(20, 29, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 43/8192          516/98304    ( 0.5%) 
+brushsides             296/65536        2368/524288   ( 0.5%) 
+planes                 172/65536        3440/1310720  ( 0.3%) 
+vertexes               281/65536        3372/786432   ( 0.4%) 
+nodes                  115/65536        3680/2097152  ( 0.2%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  202/65536       11312/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 119/65536        3808/2097152  ( 0.2%) 
+leaffaces              220/65536         440/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1362/512000       5448/2048000  ( 0.3%) 
+edges                  828/256000       3312/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           255/65536         510/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       91900/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1236/16777216 ( 0.0%) 
+entdata               [variable]        3189/393216   ( 0.8%) 
+LDR ambient table      119/65536         476/262144   ( 0.2%) 
+HDR ambient table      119/65536         476/262144   ( 0.2%) 
+LDR leaf ambient       670/65536       18760/1835008  ( 1.0%) 
+HDR leaf ambient       119/65536        3332/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      174169/0        ( 0.0%) 
+physics               [variable]       16290/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 546
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+5 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16290 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 38
+Reduced 10 texdatas to 9 (217 bytes to 168)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+  56 portalclusters
+ 152 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3032
+Average clusters visible: 54
+Building PAS...
+Average clusters audible: 56
+visdatasize:1236  compressed from 896
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+202 faces
+103427 square feet [14893550.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+202 patches before subdivision
+3880 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 130357, max 334
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(11025, 11257, 8335)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1841, 2148, 1468)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(430, 527, 326)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(83, 112, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(20, 29, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 43/8192          516/98304    ( 0.5%) 
+brushsides             298/65536        2384/524288   ( 0.5%) 
+planes                 164/65536        3280/1310720  ( 0.3%) 
+vertexes               281/65536        3372/786432   ( 0.4%) 
+nodes                  115/65536        3680/2097152  ( 0.2%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  202/65536       11312/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 119/65536        3808/2097152  ( 0.2%) 
+leaffaces              220/65536         440/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1362/512000       5448/2048000  ( 0.3%) 
+edges                  828/256000       3312/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           255/65536         510/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       91900/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1236/16777216 ( 0.0%) 
+entdata               [variable]        3189/393216   ( 0.8%) 
+LDR ambient table      119/65536         476/262144   ( 0.2%) 
+HDR ambient table      119/65536         476/262144   ( 0.2%) 
+LDR leaf ambient       670/65536       18760/1835008  ( 1.0%) 
+HDR leaf ambient       119/65536        3332/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      174169/0        ( 0.0%) 
+physics               [variable]       16290/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 546
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+5 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15810 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 37
+Reduced 8 texdatas to 8 (144 bytes to 144)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+  49 portalclusters
+ 125 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2319
+Average clusters visible: 47
+Building PAS...
+Average clusters audible: 49
+visdatasize:1082  compressed from 784
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+191 faces
+107049 square feet [15415189.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+191 patches before subdivision
+3923 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 141430, max 319
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6676, 7042, 5084)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1750, 1963, 1301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(372, 445, 265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 137, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 35, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 10, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             262/65536        2096/524288   ( 0.4%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               257/65536        3084/786432   ( 0.4%) 
+nodes                  112/65536        3584/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  191/65536       10696/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              107/65536        5992/3670016  ( 0.2%) 
+leaves                 116/65536        3712/2097152  ( 0.2%) 
+leaffaces              217/65536         434/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1338/512000       5352/2048000  ( 0.3%) 
+edges                  797/256000       3188/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             13/32768         130/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           204/65536         408/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       93908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1082/16777216 ( 0.0%) 
+entdata               [variable]        3189/393216   ( 0.8%) 
+LDR ambient table      116/65536         464/262144   ( 0.2%) 
+HDR ambient table      116/65536         464/262144   ( 0.2%) 
+LDR leaf ambient       624/65536       17472/1835008  ( 1.0%) 
+HDR leaf ambient       116/65536        3248/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86750/0        ( 0.0%) 
+physics               [variable]       15810/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 516
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+5 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\arkangel3421\team fortress 2\tf\materials
+Loading C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15810 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 37
+Reduced 8 texdatas to 8 (144 bytes to 144)
+Writing C:\Documents and Settings\Conor Wallace\Desktop\Football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+reading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.prt
+  49 portalclusters
+ 125 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2319
+Average clusters visible: 47
+Building PAS...
+Average clusters audible: 49
+visdatasize:1082  compressed from 784
+writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+191 faces
+107049 square feet [15415189.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+191 patches before subdivision
+3923 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 141430, max 319
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6676, 7042, 5084)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1750, 1963, 1301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(372, 445, 265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 137, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 35, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 10, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             262/65536        2096/524288   ( 0.4%) 
+planes                 134/65536        2680/1310720  ( 0.2%) 
+vertexes               257/65536        3084/786432   ( 0.4%) 
+nodes                  112/65536        3584/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  191/65536       10696/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              107/65536        5992/3670016  ( 0.2%) 
+leaves                 116/65536        3712/2097152  ( 0.2%) 
+leaffaces              217/65536         434/131072   ( 0.3%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1338/512000       5352/2048000  ( 0.3%) 
+edges                  797/256000       3188/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             13/32768         130/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           204/65536         408/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       93908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1082/16777216 ( 0.0%) 
+entdata               [variable]        3189/393216   ( 0.8%) 
+LDR ambient table      116/65536         464/262144   ( 0.2%) 
+HDR ambient table      116/65536         464/262144   ( 0.2%) 
+LDR leaf ambient       624/65536       17472/1835008  ( 1.0%) 
+HDR leaf ambient       116/65536        3248/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86750/0        ( 0.0%) 
+physics               [variable]       15810/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 516
+Writing c:\documents and settings\conor wallace\desktop\football\content\maps\f_football.bsp
+5 seconds elapsed

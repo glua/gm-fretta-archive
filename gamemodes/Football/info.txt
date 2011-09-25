@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Football"
+	"version"	"1.0"
+
+	"author_name"	"GloveBox"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		""
+
+	"mappattern"
+	{
+		"1"	"^f_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^f_"
+	}
+	
+	"selectable"	"1"
+}
