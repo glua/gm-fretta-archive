@@ -64,12 +64,8 @@ function SWEP:SetupWeaponHoldTypeForAI( t )
 		self.ActivityTranslateAI [ ACT_RANGE_ATTACK1_LOW ] 			= ACT_RANGE_ATTACK_SMG1_LOW
 		self.ActivityTranslateAI [ ACT_RELOAD_LOW ] 				= ACT_RELOAD_SMG1_LOW
 		self.ActivityTranslateAI [ ACT_GESTURE_RELOAD ] 			= ACT_GESTURE_RELOAD_SMG1
-		
-		return
-	elseif( t == "smg" ) then
-		self.ActivityTranslateAI [ ACT_GESTURE_RANGE_ATTACK1 ] 		= ACT_GESTURE_RANGE_ATTACK_SMG1	
-		self.ActivityTranslateAI [ ACT_RANGE_ATTACK1 ] 		= ACT_RANGE_ATTACK_SMG1	
-	end
-
+	
+	return end
+	
 end
 

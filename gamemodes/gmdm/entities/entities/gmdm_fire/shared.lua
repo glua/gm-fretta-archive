@@ -1,0 +1,4 @@
+
+
+ENT.Type = "anim"
+

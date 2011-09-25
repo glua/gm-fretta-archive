@@ -5,18 +5,20 @@ end
 
 
 SWEP.CustomSecondaryAmmo = true
+SWEP.HoldType = "rpg"
 
 if ( CLIENT ) then
 
+	SWEP.PrintName			= "RPG"			
+	SWEP.Slot				= 3
+	SWEP.SlotPos			= 0
+	SWEP.DrawAmmo			= true
 	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/fireball" )
-
+	
 end
 
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "RPG"			
-SWEP.Slot				= 3
-SWEP.SlotPos			= 0
-SWEP.DrawAmmo			= true
+
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_rpg.mdl"
 SWEP.WorldModel			= "models/weapons/w_rocket_launcher.mdl"
@@ -27,8 +29,8 @@ local Cluster_Sound = Sound("weapons/rpg/rocketfire1.wav")
 
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "smg" )
 	
 end
 

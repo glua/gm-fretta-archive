@@ -5,30 +5,33 @@ end
 
 
 SWEP.CustomSecondaryAmmo = true
+SWEP.HoldType = "smg"
 
 if ( CLIENT ) then
 
+	SWEP.PrintName			= "SMG"			
+	SWEP.Slot				= 2
+	SWEP.SlotPos			= 0
+	SWEP.DrawAmmo			= true
 	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/nade" )
-
+	
 end
 
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "#SMG"			
-SWEP.Slot				= 2
-SWEP.SlotPos			= 0
-SWEP.DrawAmmo			= true
+
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_smg1.mdl"
 SWEP.WorldModel			= "models/weapons/w_smg1.mdl"
 SWEP.Weight				= 6
+SWEP.HoldType			= "smg"
 
 local ShootSound = Sound( "Weapon_Pistol.NPC_Single" )
 local Launch_Sound = Sound( "Weapon_AR2.NPC_Double" )
 
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "smg" )
 	
 end
 

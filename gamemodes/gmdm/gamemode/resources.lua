@@ -1,34 +1,36 @@
-resource.AddFile( "materials/sprites/pickup_cloud.vmt" )
-resource.AddFile( "materials/rail.vmt" )
-resource.AddFile( "materials/hud/gmdm_icons/background.vtf" )
-resource.AddFile( "materials/hud/gmdm_icons/health.vtf" )
-resource.AddFile( "materials/hud/gmdm_icons/ammo.vtf" )
-resource.AddFile( "materials/hud/gmdm_icons/fireball.vtf" )
-resource.AddFile( "materials/hud/gmdm_icons/mine.vtf" )
-resource.AddFile( "materials/hud/gmdm_icons/nade.vtf" )
-resource.AddFile( "materials/hud/gmdm_icons/background.vmt" )
-resource.AddFile( "materials/hud/gmdm_icons/health.vmt" )
-resource.AddFile( "materials/hud/gmdm_icons/ammo.vmt" )
-resource.AddFile( "materials/hud/gmdm_icons/fireball.vmt" )
-resource.AddFile( "materials/hud/gmdm_icons/mine.vmt" )
-resource.AddFile( "materials/hud/gmdm_icons/nade.vmt" )
-resource.AddFile( "resource/fonts/Dpm.ttf" )
+function IncludeResFolder( dir )
 
-// Newly added resources
-resource.AddFile( "materials/bluredges.vmt" )
-resource.AddFile( "materials/egon_middlebeam.vmt" )
-resource.AddFile( "materials/egon_ringbeam.vmt" )
-resource.AddFile( "materials/refract_ring.vmt" )
-resource.AddFile( "materials/tripmine_laser.vmt" )
-resource.AddFile( "materials/decals/edonburn.vmt" )
-resource.AddFile( "materials/hud/gmdm/col_sel.vmt" )
-resource.AddFile( "materials/sprites/light_ignorez.vmt" )
-resource.AddFile( "materials/sprites/magic.vmt" )
-//resource.AddFile( "materials/sprites/pickup_cloud.vmt" )
-resource.AddFile( "materials/sprites/soul.vmt" )
-resource.AddFile( "materials/sprites/gmdm_pickups/base.vmt" )
-resource.AddFile( "materials/sprites/gmdm_pickups/base_r.vmt" )
-resource.AddFile( "materials/sprites/gmdm_pickups/light.vmt" )
-resource.AddFile( "materials/sprites/gmdm_pickups/name.vmt" )
-resource.AddFile( "materials/sprites/gmdm_pickups/over.vmt" )
-resource.AddFile( "materials/weapons/scopes/scope2.vmt" )
+	local files = file.FindInLua( "sterrortown/content/" .. dir .. "*" )
+	local FindFileTypes = 
+	{
+		".vmt",
+		".vtf",
+		".mdl",
+		".mp3",
+		".wav",
+		".txt",
+	}
+	
+	for k, v in pairs( files ) do
+		for k2, v2 in pairs( FindFileTypes ) do
+			if ( string.find( v, v2 ) ) then
+				resource.AddFile( dir .. v )
+			end
+		end
+	end
+end
+
+IncludeResFolder( "materials/" )
+IncludeResFolder( "materials/decals/" )
+IncludeResFolder( "materials/hud/" )
+IncludeResFolder( "materials/hud/gmdm/" )
+IncludeResFolder( "materials/hud/gmdm_icons/" )
+IncludeResFolder( "materials/sprites/" )
+IncludeResFolder( "materials/sprites/gmdm_pickups/" )
+IncludeResFolder( "materials/weapons/" )
+IncludeResFolder( "materials/weapons/scopes/" )
+IncludeResFolder( "scripts/" )
+IncludeResFolder( "scripts/decals/" )
+IncludeResFolder( "scripts/server_settings/" )
+
+//resource.AddFile( "gmdm_maps.txt" )

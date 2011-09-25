@@ -1,3 +1,20 @@
+
+if ( SERVER ) then
+	AddCSLuaFile( "shared.lua" )
+end
+
+SWEP.HoldType = "grenade"
+
+if ( CLIENT ) then
+
+	SWEP.PrintName			= "Electricity Grenades"	
+	SWEP.Slot				= 5
+	SWEP.SlotPos			= 1
+	SWEP.DrawAmmo			= true
+	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/mine" )
+
+end
+
 SWEP.Author			= "Levybreak"
 SWEP.Contact		= "nil"
 SWEP.Purpose		= "1.21 JIGAWATTS OF AWESOME POWER!"
@@ -6,10 +23,7 @@ SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.CustomSecondaryAmmo = true
 SWEP.Base				= "gmdm_base"
-SWEP.PrintName			= "Electricity Grenades"	
-SWEP.Slot				= 5
-SWEP.SlotPos			= 1
-SWEP.DrawAmmo			= true
+
 SWEP.DrawCrosshair		= true
 SWEP.ViewModel			= "models/weapons/v_grenade.mdl"
 SWEP.WorldModel			= "models/weapons/w_grenade.mdl"
@@ -22,20 +36,14 @@ SWEP.Secondary.DefaultClip	= -1
 SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
-if ( CLIENT ) then
-
-	SWEP.CustomAmmoIcon = surface.GetTextureID( "hud/gmdm_icons/mine" )
-
-end
-
 
 function SWEP:Precache()
 	util.PrecacheModel("models/weapons/w_grenade.mdl")
 end
 
 function SWEP:Initialize( )
+	self:SetWeaponHoldType( self.HoldType )
 	self:GMDMInit()
-	self:SetWeaponHoldType( "grenade" )	
 end
 
 function SWEP:FirstTimePickup( Owner )

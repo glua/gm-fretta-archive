@@ -227,6 +227,129 @@ function meta:TraceLine( distance )
 end
 
 //
+// Flamethrower effects
+//
+function meta:GMDM_Extinguish()
+
+	self:SetFireTime( -1 )
+	self:SetVar( "FireAttacker", NULL )
+
+end
+
+
+function meta:GMDM_Ignite( attacker )
+
+	self:SetFireTime( 5 )
+	self:SetVar( "FireAttacker", attacker )
+
+end
+
+
+function meta:DoOnFire()
+
+	local OnFire = self:GetVar( "OnFire", false )
+
+	if ( self:GetFireTime() <= 0 ) then
+		if (OnFire) then
+		
+			self:SetVar( "OnFire", false )
+			self:SetMaterial( "" )
+			
+		end
+	return end
+	
+	
+	if (!OnFire) then
+		self:SetVar( "OnFire", true )
+		self:SetMaterial( "models/onfire" )
+	end
+	
+	
+	// Do server effects (take damage)
+	if (SERVER && self:GetVar( "LastFire", 0 ) < CurTime()) then
+	
+		self:SetVar( "LastFire", CurTime() + 0.1 )
+		self:TakeDamage( 1, self:GetVar( "FireAttacker", NULL ), self:GetVar( "FireAttacker", NULL ) )
+		
+	end
+	
+	// Do clientside effects (move the view and spawn particles)
+	if (CLIENT && self:GetVar( "LastFire", 0 ) < CurTime()) then
+	
+		if (self == LocalPlayer()) then
+			self:Recoil( math.Rand( -3, 3 ), math.Rand( -15, 15 ) )
+		end
+	
+		self:SetVar( "LastFire", CurTime() + 0.02 )
+		local Velocity 	= Vector( 0, 0, 1 )
+		local emitter = ParticleEmitter( self:GetPos() )
+		
+		for i=0, 8 do
+		
+			local Pos = self:GetPos() + self:OBBMaxs() * math.Rand(0,1) + self:OBBMins() * math.Rand(0,1)
+			
+			// If we're the local player then put the flames in front of the view more
+			if ( self == LocalPlayer() ) then
+				Pos = Pos + self:GetAngles():Forward() * 16
+			end
+		
+			local particle = emitter:Add( "particles/flamelet"..math.random( 1, 5 ), Pos )
+
+				particle:SetVelocity( Velocity * math.Rand( 10, 200 ) )
+				particle:SetDieTime( math.Rand( 0.1, 0.2 ) )
+				particle:SetStartAlpha( math.Rand( 150, 250 ) )
+				particle:SetStartSize( math.Rand( 8, 16 ) )
+				particle:SetEndSize( math.Rand( 16, 32 ) )
+				particle:SetRoll( math.Rand( 0, 360 ) )
+				particle:SetRollDelta( math.Rand( -0.1, 0.1 ) )
+				particle:SetColor( math.Rand( 150, 255 ), math.Rand( 100, 150 ), 100 )
+				particle:VelocityDecay( false )
+			
+		end
+				
+		emitter:Finish()
+	
+	end
+	
+
+end
+
+
+function meta:DoFireDeath( attacker )
+
+	local trace = {}
+		trace.start = self:GetPos()
+		trace.endpos = self:GetPos() + Vector( 0, 0, -1 )
+		trace.filter = self
+	local tr =  util.TraceLine( trace )
+	
+	
+	if ( tr.Hit ) then
+	
+		// Only lay fire on flat(ish) ground
+		if ( Vector( 0, 0, 1 ):Dot( tr.HitNormal ) > 0.25 ) then
+	
+			local fire = ents.Create( "gmdm_fire" )
+				fire:SetPos( tr.HitPos + tr.HitNormal * 32 )
+				fire:SetAngles( tr.HitNormal:Angle() )
+				fire:SetOwner( attacker )
+				fire:Spawn()
+				fire:Activate()
+				
+		end
+	
+	end
+	
+
+	self:CreateRagdoll()
+/*
+	local effectdata = EffectData()
+		effectdata:SetEntity( self )
+	util.Effect( "fire_death", effectdata )
+	*/
+end
+
+//
 // Gib the player
 //
 function meta:Gib( dmginfo )

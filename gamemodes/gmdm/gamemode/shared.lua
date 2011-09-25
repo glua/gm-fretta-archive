@@ -1,4 +1,13 @@
-DeriveGamemode( "fretta" );
+DeriveGamemode( "cgfretta" );
+
+Loadables.Load( {
+	"achivement",
+	"scoreboard",
+	"weaponfix",
+	"thirdperson",
+	//"jetpack",
+	"icon"
+} )
 
 -- Configurable cvars
 gmdm_unlimitedammo = CreateConVar( "gmdm_unlimitedammo", "0", { FCVAR_REPLICATED, FCVAR_NOTIFY, FCVAR_ARCHIVE } )
@@ -209,7 +218,7 @@ function GM:CalcView( ply, origin, angle, fov )
 	
 	
 	local RagdollPos, RagdollAng = self:GetRagdollEyes( ply )
-	if ( RagdollPos && RagdollAng && !ply:IsAlive() ) then
+	if ( RagdollPos && RagdollAng && !ply:Alive() ) then
 		return self.BaseClass:CalcView( ply, RagdollPos, RagdollAng, 90 )
 	end
 
