@@ -1,0 +1,21 @@
+"Gamemode"
+{
+	"name"		"Trembling Tiles"
+	"version"	"1.0"
+
+	"author_name"	"Disseminate"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		"Don't stand in one place for too long"
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^til_"
+	}
+
+	"selectable"	"1"
+	"description"	"Watch for missing tiles."
+}

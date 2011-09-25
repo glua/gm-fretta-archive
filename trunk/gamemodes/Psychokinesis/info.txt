@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Phychokenesis"
+	"version"	"1"
+
+	"author_name"	"Douglas Huck"
+	"author_email"	"faceguydb@gmail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^pk_"
+	}
+	
+	"mappattern"
+	{
+		"1"	"^pk_"
+	}
+
+	"selectable"	"1"
+	"description"	"Prop DM!"
+}

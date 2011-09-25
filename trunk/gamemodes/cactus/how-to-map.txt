@@ -1,0 +1,8 @@
+Just make a normal map with info_player_start entities for players to spawn at.
+The add a bunch of info_cactus_spawn entities for the cacti to spawn from.
+
+I recommend making a killbox-style map with about 18-36 cactus spawns spaced at least 120 units apart.
+You can do whatever you want, but cacti spawn in 15-20 second intervals.
+Don't make too many spawnpoints for them.
+
+Keep in mind that players can jump much higher than normal and run a lot faster.

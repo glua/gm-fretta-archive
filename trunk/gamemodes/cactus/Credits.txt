@@ -1,0 +1,3 @@
+Grea$eMonkey - creator
+Maurits150 - assisted with debugging
+matt wild - made c_cadstrum
