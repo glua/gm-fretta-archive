@@ -5,6 +5,7 @@ SWEP.Base 				= "weapon_mad_grenade"
 SWEP.ViewModelFlip		= true
 SWEP.ViewModel 			= "models/weapons/v_eq_flashbang.mdl"
 SWEP.WorldModel 			= "models/weapons/w_eq_flashbang.mdl"
+SWEP.HoldType				= "grenade"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

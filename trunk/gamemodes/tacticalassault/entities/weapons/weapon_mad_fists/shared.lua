@@ -6,6 +6,7 @@ SWEP.ViewModelFOV			= 47
 SWEP.ViewModelFlip		= false
 SWEP.ViewModel			= "models/weapons/v_punch.mdl"
 SWEP.WorldModel			= "models/weapons/w_fists_t.mdl"
+SWEP.HoldType				= "fist"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false
@@ -103,8 +104,9 @@ end
 ---------------------------------------------------------*/
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType(self.HoldType)
+		
 	if (SERVER) then
-		self:SetWeaponHoldType(self.HoldType)
 
 		self:SetNPCMinBurst(30)
 		self:SetNPCMaxBurst(30)

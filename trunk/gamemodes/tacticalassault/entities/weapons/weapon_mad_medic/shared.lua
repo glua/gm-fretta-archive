@@ -5,6 +5,7 @@ SWEP.Base 				= "weapon_mad_base"
 SWEP.ViewModelFOV			= 80
 SWEP.ViewModel			= "models/items/v_medkit2.mdl"
 SWEP.WorldModel			= "models/items/w_medkit.mdl"
+SWEP.HoldType				= "slam"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

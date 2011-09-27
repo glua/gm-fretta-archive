@@ -3,7 +3,6 @@ if (SERVER) then
 	AddCSLuaFile("cl_init.lua")
 	
 	SWEP.Weight = 1
-	SWEP.HoldType = "rpg"
 end
 
 if (CLIENT) then
@@ -26,6 +25,7 @@ SWEP.AdminSpawnable = true;
    
 SWEP.ViewModel = "models/weapons/v_RPG.mdl"
 SWEP.WorldModel = "models/w_rpg.mdl"
+	SWEP.HoldType = "rpg"
 
 SWEP.Primary.ClipSize = 10; 
 SWEP.Primary.DefaultClip = 10; 
@@ -73,6 +73,7 @@ end
  
  function SWEP:Initialize()
 	self.Attack = false
+	self:SetWeaponHoldType( self.HoldType )
 end
 
 function SWEP:Deploy()

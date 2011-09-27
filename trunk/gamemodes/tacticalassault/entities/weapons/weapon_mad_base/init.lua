@@ -8,7 +8,6 @@ SWEP.Weight					= 5		// Decides whether we should switch from/to this
 SWEP.AutoSwitchTo				= true	// Auto switch to if we pick it up
 SWEP.AutoSwitchFrom			= true	// Auto switch from if you pick up a better weapon
 
-SWEP.HoldType				= "pistol"
 
 local ActIndex = {}
 	ActIndex["pistol"] 		= ACT_HL2MP_IDLE_PISTOL

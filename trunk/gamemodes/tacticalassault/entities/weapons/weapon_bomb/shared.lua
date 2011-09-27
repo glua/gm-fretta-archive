@@ -2,7 +2,6 @@ if (SERVER) then
 	AddCSLuaFile("shared.lua")
 	
 	SWEP.Weight = 1
-	SWEP.HoldType = "slam"
 end
 
 if (CLIENT) then
@@ -30,6 +29,7 @@ end
    
  SWEP.ViewModel = "models/weapons/v_c4.mdl"
  SWEP.WorldModel = "models/weapons/w_c4.mdl"
+SWEP.HoldType = "slam"
 
  SWEP.Primary.ClipSize = -1; 
  SWEP.Primary.DefaultClip = -1; 

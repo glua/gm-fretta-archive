@@ -5,6 +5,7 @@ SWEP.Base 				= "weapon_mad_base_sniper"
 SWEP.ViewModelFlip		= false
 SWEP.ViewModel 			= "models/weapons/v_irifle.mdl"
 SWEP.WorldModel 			= "models/weapons/w_irifle.mdl"
+SWEP.HoldType				= "ar2"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

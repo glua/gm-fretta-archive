@@ -3,11 +3,11 @@ if SERVER then
 
 	AddCSLuaFile("shared.lua")
 	
-	SWEP.HoldType = "melee"
-	
 end
 
 SWEP.Base = "claw_base"
+	
+SWEP.HoldType = "melee"
 
 SWEP.ViewModel = "models/Zed/weapons/v_disease.mdl"
 

@@ -5,7 +5,6 @@ if (SERVER) then
 	AddCSLuaFile("cl_init.lua")
 	
 	SWEP.Weight = 1
-	SWEP.HoldType = "slam"
 end
 
 if (CLIENT) then
@@ -33,6 +32,7 @@ end
 SWEP.ViewModel			= "models/items/v_medkit2.mdl"
 SWEP.WorldModel			= "models/items/w_medkit.mdl"
 SWEP.ViewModelFOV 		= 80
+SWEP.HoldType = "slam"
 
 SWEP.Primary.Sound 		= Sound("HealthVial.Touch")
 SWEP.Secondary.Sound 		= Sound("WeaponFrag.Throw")
@@ -57,7 +57,7 @@ SWEP.ScannerTimer = 0
 SWEP.ScannerDelay = 30
  
  function SWEP:Initialize()
-	
+	self:SetWeaponHoldType( self.HoldType )
 	timer.Create(self:EntIndex().."heal",0.2,0,function() 
 		if ValidEntity(self.Scanner) and ValidEntity(self.Target) and self.Scanner:GetPos():Distance(self.Target:GetPos()) < 250 then
 			self.Target:SetHealth(math.Clamp(self.Target:Health() + 2,0,100))

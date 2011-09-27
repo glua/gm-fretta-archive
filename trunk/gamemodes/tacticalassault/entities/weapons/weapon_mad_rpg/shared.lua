@@ -4,6 +4,7 @@ SWEP.Base 				= "weapon_mad_base"
 
 SWEP.ViewModel			= "models/weapons/v_rpg.mdl"
 SWEP.WorldModel			= "models/weapons/w_rocket_launcher.mdl"
+SWEP.HoldType				= "rpg"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

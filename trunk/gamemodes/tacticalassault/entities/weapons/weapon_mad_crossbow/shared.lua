@@ -1,6 +1,7 @@
 // Variables that are used on both client and server
 
 SWEP.Base 				= "weapon_mad_base_sniper"
+SWEP.HoldType				= "crossbow"
 
 SWEP.ViewModelFlip		= false
 SWEP.ViewModel			= "models/weapons/v_crossbow.mdl"

@@ -3,7 +3,6 @@ AddCSLuaFile("shared.lua")
 
 include("shared.lua")
 
-SWEP.HoldType				= "ar2"
 
 /*---------------------------------------------------------
    Name: SWEP:OnRestore()
