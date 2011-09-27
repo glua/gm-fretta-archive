@@ -1,0 +1,7 @@
+ENT.Type 			= "anim"
+ENT.Base 			= "base_anim"
+ENT.PrintName		= "Junk"
+ENT.Author			= "Levybreak"
+ENT.Contact 		= "Facepunch"
+ENT.Purpose			= ""
+ENT.Instructions	= "Pick It Up." 

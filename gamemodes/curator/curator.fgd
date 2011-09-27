@@ -1,0 +1,41 @@
+@include "base.fgd"
+@include "halflife2.fgd"
+@include "garrysmod.fgd"
+
+@SolidClass = trigger_event : "Event Trigger. A thief can press use within this volue and 'use' this."
+[
+	RequiredItems(string) : "Required Items" : "" : "Separated by ;'s ex: 'crowbar; welder; lockpick'"
+	TargetRelay(target_destination) : "Target Relay" : "" : "Targetname of the desired logic_relay to fire OnUser1 On when a Valid Activation is recieved."
+	CuratorRelay(target_destination) : "Curator Useage Relay" : "" : "Targetname of the desired logic_relay to fire OnUser1 On when a Curator Activation is recieved. AFTER a Thief activation."
+	CuratorCost(integer) : "Curator Cost" : 0 : "Cost for the curator to activate this."
+	CuratorText(string) : "Curator Text" : "" : "Text used to describe the event to the curator."
+	
+]
+
+@SolidClass = trigger_museum : "Museum Trigger. The entire inside of your museum should be filled with this."
+[	
+	TriggerRelay(target_destination) : "Trigger Relay" : "" : "Targetname of the desired logic_relay to fire OnUser1 On when the alarms go off!"
+]
+
+@SolidClass = trigger_ladder : "Eh, defines grapple points."
+[	
+]
+
+@PointClass base(Targetname, Origin) = info_curator_start : "Defines Crator Start Pos"
+[	
+]
+
+@PointClass base(Targetname, Origin) = info_art_spawn : "Defines An Art Spawn Pos"
+[
+]
+
+@PointClass base(Targetname, Origin) = info_junk_spawn : "Defines A Junk Spawn Pos"
+[
+]
+
+@PointClass base(Targetname, Origin) = info_round_info : "Thief shop location. Also sends out round info."
+[
+	StartRelay(target_destination) : "Start Relay" : "" : "Targetname of the desired logic_relay to fire OnUser1 On when the round begins."
+	EndRelay(target_destination) : "End Relay" : "" : "Targetname of the desired logic_relay to fire OnUser2 On when the round ends."
+]
+
