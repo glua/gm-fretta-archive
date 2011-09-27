@@ -12,6 +12,8 @@ SWEP.ViewModelFlip  = true
 SWEP.ViewModel      = "models/weapons/v_snip_awp.mdl"
 SWEP.WorldModel     = "models/weapons/w_snip_awp.mdl"
 SWEP.AnimPrefix     = "python"
+self.HoldType			= "crossbow"
+
 
 SWEP.Spawnable          = false
 SWEP.AdminSpawnable     = true
@@ -35,9 +37,8 @@ SWEP.Secondary.Ammo         = "None"
 function SWEP:Initialize()
     self.zooming = false
     self.zoom = 0.0
-	Msg("Initialising sniper rifle")
+	self:SetWeaponHoldType( self.HoldType )
 end
-
 
 /*---------------------------------------------------------
    Name: SWEP:Precache( )

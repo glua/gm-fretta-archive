@@ -7,7 +7,6 @@ if ( SERVER ) then
 	SWEP.Weight				= 5
 	SWEP.AutoSwitchTo		= true
 	SWEP.AutoSwitchFrom		= false
-	SWEP.HoldType			= "slam"
 
 end
 
@@ -51,6 +50,8 @@ SWEP.Author			= "Dlaor"
 SWEP.Contact		= ""
 SWEP.Purpose		= ""
 SWEP.Instructions	= ""
+
+SWEP.HoldType			= "slam"
 
 SWEP.ViewModel			= "models/weapons/v_c4.mdl"
 SWEP.WorldModel			= "models/weapons/w_c4.mdl"

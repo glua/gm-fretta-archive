@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "ar2"
-	
 end
 
 if CLIENT then
@@ -33,6 +31,8 @@ if CLIENT then
 	surface.CreateFont( "Tahoma", 12, 500, true, false, "SniperHudText" )
 	
 end
+
+SWEP.HoldType = "ar2"
 
 SWEP.ViewModel	= "models/weapons/v_pistol.mdl"
 SWEP.WorldModel = "models/weapons/w_pistol.mdl"
@@ -188,9 +188,7 @@ end
 
 function SWEP:Initialize()
 
-	if SERVER then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 	
 end
 

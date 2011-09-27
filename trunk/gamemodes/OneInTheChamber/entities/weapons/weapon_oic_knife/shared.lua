@@ -57,9 +57,7 @@ util.PrecacheSound("weapons/knife/knife_hit4.wav")
 util.PrecacheSound("weapons/iceaxe/iceaxe_swing1.wav")
 
 function SWEP:Initialize()
-	if( SERVER ) then
-		self:SetWeaponHoldType( "melee" );
-	end
+	self:SetWeaponHoldType( "melee" );
 	self.Hit = { 
 	Sound( "weapons/knife/knife_hitwall1.wav" )};
 	self.FleshHit = {

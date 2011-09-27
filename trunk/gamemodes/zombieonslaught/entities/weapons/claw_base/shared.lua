@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "slam"
-	
 end
 
 if CLIENT then
@@ -36,6 +34,8 @@ end
 
 SWEP.ViewModel	= "models/weapons/v_pistol.mdl"
 SWEP.WorldModel = "models/weapons/w_pistol.mdl"
+	
+SWEP.HoldType = "slam"
 
 SWEP.Primary.Voice          = Sound("npc/zombie/zo_attack1.wav")
 SWEP.Primary.Sound			= Sound("npc/zombie/claw_miss1.wav")
@@ -55,11 +55,7 @@ SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
 function SWEP:Initialize()
-
-	if SERVER then
-		self:SetWeaponHoldType( self.HoldType )
-	end
-	
+	self:SetWeaponHoldType( self.HoldType )
 end
 
 function SWEP:Deploy()

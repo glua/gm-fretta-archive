@@ -21,8 +21,6 @@ if( SERVER ) then
 	AddCSLuaFile( "recoil.lua" );
 	AddCSLuaFile( "shotgun.lua" );
 	AddCSLuaFile( "animations.lua" );
-	
-	SWEP.HoldType				= "pistol";
 end
 
 include( "firemodes.lua" );
@@ -36,6 +34,8 @@ include( "animations.lua" );
 SWEP.Contact					= "" 
 SWEP.Purpose					= "" 
 SWEP.Instructions				= "" 
+ 
+SWEP.HoldType				= "pistol"
  
 SWEP.ViewModel					= Model( "models/weapons/v_SMG1.mdl"  )
 SWEP.WorldModel					= Model( "models/weapons/w_SMG1.mdl"  ) 
@@ -81,7 +81,6 @@ SWEP.ShellType					= SHELL_762NATO;
 function SWEP:Initialize()
 
 	if ( SERVER ) then
-		self:SetWeaponHoldType( self.HoldType );
 		self:SetNPCMinBurst( self.Primary.ClipSize );
 		self:SetNPCMaxBurst( self.Primary.ClipSize );
 		self:SetNPCFireRate( self.Primary.Delay );
@@ -90,6 +89,8 @@ function SWEP:Initialize()
 			self:InstallFiremode( self.DefaultFiremode );
 		end
 	end
+	
+	self:SetWeaponHoldType( self.HoldType );
 	
 	self.Weapon:SetNetworkedBool( "Ironsights", false );
 	self.NextIdleTime = 0;

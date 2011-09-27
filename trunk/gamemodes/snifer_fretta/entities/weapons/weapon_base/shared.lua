@@ -12,6 +12,7 @@ SWEP.ViewModelFlip  = false
 SWEP.ViewModel      = "models/weapons/v_pistol.mdl"
 SWEP.WorldModel     = "models/weapons/w_357.mdl"
 SWEP.AnimPrefix     = "python"
+SWEP.HoldType		= "pistol"
 
 SWEP.Spawnable          = false
 SWEP.AdminSpawnable     = false
@@ -33,6 +34,7 @@ SWEP.Secondary.Ammo         = "Pistol"
    Desc: Called when the weapon is first loaded
 ---------------------------------------------------------*/
 function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
 end
 
 

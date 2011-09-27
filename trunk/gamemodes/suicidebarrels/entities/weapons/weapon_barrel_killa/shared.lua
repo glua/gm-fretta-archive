@@ -1,7 +1,5 @@
 if( SERVER ) then
 	AddCSLuaFile( "shared.lua" )
-	
-	SWEP.HoldType				= "pistol";
 end
 
 if( CLIENT ) then
@@ -12,6 +10,8 @@ if( CLIENT ) then
 end
 
 SWEP.Base						= "weapon_base";
+	
+SWEP.HoldType				= "pistol";
 
 SWEP.Contact					= "" 
 SWEP.Purpose					= "Use this to kill those damn barrels." 
@@ -32,6 +32,10 @@ SWEP.Secondary.ClipSize			= -1
 SWEP.Secondary.DefaultClip		= -1 
 SWEP.Secondary.Automatic		= false 
 SWEP.Secondary.Ammo				= "none" 
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end
 
 /*---------------------------------------------------------
    Name: SWEP:PrimaryAttack( )

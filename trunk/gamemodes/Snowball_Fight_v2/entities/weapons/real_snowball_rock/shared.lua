@@ -21,7 +21,6 @@ if ( SERVER ) then
 
 	AddCSLuaFile( "shared.lua" )
 	
-	SWEP.HoldType			= "grenade"
 	SWEP.Weight				= 5
 	SWEP.AutoSwitchTo			= false
 	SWEP.AutoSwitchFrom		= false
@@ -30,6 +29,8 @@ end
 SWEP.Category = 		"Christmas";
 SWEP.Spawnable      = true
 SWEP.AdminSpawnable  = true
+
+SWEP.HoldType			= "grenade"
 
 SWEP.ViewModel      = "models/weapons/v_snowball.mdl"
 SWEP.WorldModel   = "models/weapons/w_snowball.mdl"

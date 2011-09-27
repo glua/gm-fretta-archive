@@ -1,8 +1,6 @@
 if (SERVER) then
 
 	AddCSLuaFile( "shared.lua" )
-	
-	SWEP.HoldType = "ar2"
 
 end
 
@@ -23,6 +21,8 @@ if ( CLIENT ) then
 end
 
 SWEP.Base				= "ts_base"
+	
+SWEP.HoldType = "ar2"
 
 SWEP.ViewModel			= "models/weapons/v_rif_sg552.mdl"
 SWEP.WorldModel			= "models/weapons/w_rif_sg552.mdl"

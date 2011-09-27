@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "slam"
-	
 end
 
 if CLIENT then
@@ -32,6 +30,7 @@ if CLIENT then
 	
 end
 
+SWEP.HoldType = "slam"
 SWEP.ViewModel		= "models/weapons/v_c4.mdl"
 SWEP.WorldModel		= "models/weapons/w_c4.mdl"
 
@@ -59,9 +58,7 @@ SWEP.EndingTime = nil
 
 function SWEP:Initialize()
 
-	if SERVER then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 	
 end
 

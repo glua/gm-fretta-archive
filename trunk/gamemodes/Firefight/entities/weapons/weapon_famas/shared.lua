@@ -3,7 +3,6 @@
 if ( SERVER ) then
 
 	AddCSLuaFile( "shared.lua" )
-	SWEP.HoldType			= "ar2"
 	
 end
 
@@ -25,6 +24,7 @@ SWEP.Base				= "weapon_cs_base"
 SWEP.Spawnable			= false
 SWEP.AdminSpawnable		= false
 
+SWEP.HoldType			= "ar2"
 SWEP.ViewModel			= "models/weapons/v_rif_famas.mdl"
 SWEP.WorldModel			= "models/weapons/w_rif_famas.mdl"
 SWEP.ViewModelFlip 		= false
@@ -49,6 +49,10 @@ SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
 SWEP.IronSightsPos 		= Vector( -4.5, -3.2, 1.0 )
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end
 
 function SWEP:PrimaryAttack()
 -- ive stolen this from the cs base because i want to use the primary fire function but not overwrite what the base does, i tried hook.Add but with no success! 

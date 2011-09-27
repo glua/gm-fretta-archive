@@ -28,6 +28,7 @@ local ShootSound = Sound ("Weapon_Pistol.Single")
  
 function SWEP:Initialize()
         self.Weapon:SetNetworkedBool( "NextShot", 0 )
+		self:SetWeaponHoldType( self.HoldType )
 end
  
 
@@ -133,9 +134,3 @@ function SWEP:SecondaryAttack()
 		local history = self.Owner:GetNWInt("Crates")
 		self.Owner:SetNWInt("Crates", history + 1)
 end
- 
-----------------
-
-if !SERVER then
-
-end 

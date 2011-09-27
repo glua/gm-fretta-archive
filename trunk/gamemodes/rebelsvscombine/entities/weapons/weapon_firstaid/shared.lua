@@ -32,7 +32,7 @@ SWEP.Secondary.TakeAmmo 	= 0;
 SWEP.Secondary.Sound 		= "weapons/crossbow/fire1.wav";
 
 function SWEP:Initialize()
-
+	self:SetWeaponHoldType( self.HoldType )
 end
 
 function SWEP:PrimaryAttack()

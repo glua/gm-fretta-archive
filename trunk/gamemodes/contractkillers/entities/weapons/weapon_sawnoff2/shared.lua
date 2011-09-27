@@ -107,8 +107,6 @@ end
 
 function SWEP:Initialize()
 
-	if ( SERVER ) then
-		self:SetWeaponHoldType( self.HoldType )
-	end	
+	self:SetWeaponHoldType( self.HoldType )
 	
 end

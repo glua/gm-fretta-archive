@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "ar2"
-	
 end
 
 if CLIENT then
@@ -32,6 +30,8 @@ if CLIENT then
 	
 end
 
+SWEP.HoldType = "ar2"
+
 SWEP.ViewModel		= "models/weapons/v_rif_famas.mdl"
 SWEP.WorldModel		= "models/weapons/w_rif_famas.mdl"
 
@@ -51,9 +51,7 @@ SWEP.Secondary.DefaultClip	= -1
 
 function SWEP:Initialize()
 
-	if SERVER then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 	
 end
 
