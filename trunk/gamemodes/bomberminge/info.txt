@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Bomberminge"
+	"version"	"0.99"
+
+	"author_name"	"_Kilburn"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		""
+
+	"fretta_maps"
+	{
+		"1"	"^bm_"
+	}
+	"mappattern"
+	{
+		"1"	"^bm_"
+	}
+
+	"selectable"	"1"
+	"description"	"It's Bomberman with mingebags, derp"
+}

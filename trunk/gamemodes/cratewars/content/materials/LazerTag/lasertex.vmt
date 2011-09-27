@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "LaserTag/lasertex"
+	"$vertexcolor"		1
+	"$vertexalpha"		1
+	"$additive"		1
+}
