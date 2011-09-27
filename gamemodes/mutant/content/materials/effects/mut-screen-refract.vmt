@@ -1,0 +1,18 @@
+"Refract"
+{
+	$refractamount -.02
+	$dudvmap "models/shadertest/shieldnoise0_dudv"
+	$normalmap "models/shadertest/shieldnoise0_normal"
+	$bumpframe 0
+	$ignorez 1
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 29.00
+		}
+	}
+}

@@ -1,0 +1,41 @@
+"UnlitTwoTexture"
+{
+	$basetexture "effects/mut-screen-fire"
+	$texture2 "effects/mut-screen-fire-mask"
+	$additive 1
+	$model 1
+	$color "[1 1 1]"
+	$ignorez 1
+	$mul 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 40
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .5
+			"texturescrollangle" 90
+		}
+		"Equals"
+		{
+			"srcVar1" "$mul"
+			"resultVar" "$color[0]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$mul"
+			"resultVar" "$color[1]"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$mul"
+			"resultVar" "$color[2]"
+		}
+	}
+}

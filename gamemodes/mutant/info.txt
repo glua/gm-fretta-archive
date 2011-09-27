@@ -1,0 +1,23 @@
+"Gamemode"
+{
+	"name"		"Mutant"
+	"version"	"1"
+
+	"author_name"	"mahalis"
+	"author_email"	"mahalis@gmail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^dm_"
+		"2"	"^cs_"
+		"3"	"^de_"
+	}
+
+	"selectable"	"1"
+	"description"	"One player is a superpowered Mutant. Kill the Mutant to become it yourself."
+}

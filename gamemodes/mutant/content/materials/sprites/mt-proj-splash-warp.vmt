@@ -1,0 +1,11 @@
+"Refract"
+{
+	"$normalmap" "particle/water/WaterSplash_001a_normal"
+ 	"$refractamount" "-.2"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$translucent" "1"
+	"$forcerefract" 1
+	"$vertexcolormodulate" "1"
+
+}
