@@ -3,8 +3,6 @@ if SERVER then
 
 	AddCSLuaFile("shared.lua")
 	
-	SWEP.HoldType = "slam"
-	
 end
 
 if CLIENT then
@@ -26,6 +24,8 @@ if CLIENT then
 end
 
 SWEP.Base = "claw_base"
+	
+SWEP.HoldType = "slam"
 
 SWEP.ViewModel	= "models/weapons/v_c4.mdl"
 SWEP.WorldModel = "models/weapons/w_package.mdl" 

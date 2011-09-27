@@ -3,7 +3,6 @@ if (SERVER) then
 	AddCSLuaFile("cl_init.lua")
 	
 	SWEP.Weight = 1
-	SWEP.HoldType = "slam"
 end
 
 if (CLIENT) then
@@ -31,6 +30,7 @@ end
 SWEP.ViewModel		= "models/weapons/devin/v_binoculars.mdl"
 SWEP.WorldModel		= "models/weapons/devin/w_binoculars.mdl"
 SWEP.AutoSwitchTo = false
+SWEP.HoldType = "slam"
 
  SWEP.Primary.ClipSize = -1; 
  SWEP.Primary.DefaultClip = -1; 

@@ -2,6 +2,7 @@
 // The scope code is based on the Realistic Weapons Base made by Teta Bonita
 
 SWEP.Base				= "weapon_mad_base"
+SWEP.HoldType				= "ar2"
 
 SWEP.ShellEffect			= "effect_mad_shell_rifle"	// "effect_mad_shell_pistol" or "effect_mad_shell_rifle" or "effect_mad_shell_shotgun"
 SWEP.ShellDelay			= 1

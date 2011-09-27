@@ -3,7 +3,6 @@ AddCSLuaFile("shared.lua")
 
 include("shared.lua")
 
-SWEP.HoldType				= "rpg"
 
 /*---------------------------------------------------------
    Name: SWEP:NPCShoot_Primary()

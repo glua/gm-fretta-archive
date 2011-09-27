@@ -4,6 +4,7 @@ SWEP.Base 				= "weapon_mad_base"
 
 SWEP.ViewModel			= "models/weapons/v_mach_m249para.mdl"
 SWEP.WorldModel			= "models/weapons/w_mach_m249para.mdl"
+SWEP.HoldType				= "ar2"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

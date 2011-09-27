@@ -26,6 +26,7 @@ SWEP.ViewModelFlip		= false
 SWEP.ViewModel			= "models/weapons/v_pistol.mdl"
 SWEP.WorldModel			= "models/weapons/w_pistol.mdl"
 SWEP.AnimPrefix			= "python"
+SWEP.HoldType				= "pistol"
 
 SWEP.Spawnable			= false
 SWEP.AdminSpawnable		= false
@@ -118,8 +119,9 @@ SWEP.ShotgunBeginReload		= 0.3
 ---------------------------------------------------------*/
 function SWEP:Initialize()
 
+	self:SetWeaponHoldType(self.HoldType)
+		
 	if (SERVER) then
-		self:SetWeaponHoldType(self.HoldType)
 
 		// Fucking NPCs
 		self:SetNPCMinBurst(30)

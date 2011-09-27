@@ -5,6 +5,7 @@ SWEP.Base 				= "weapon_mad_base_sniper"
 SWEP.ViewModelFlip		= true
 SWEP.ViewModel			= "models/weapons/v_snip_awp.mdl"
 SWEP.WorldModel			= "models/weapons/w_snip_awp.mdl"
+SWEP.HoldType				= "ar2"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

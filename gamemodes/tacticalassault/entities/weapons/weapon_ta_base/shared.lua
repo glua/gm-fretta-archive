@@ -8,6 +8,7 @@ SWEP.ViewModelFOV			= 60
 SWEP.ViewModelFlip		= false
 SWEP.ViewModel			= "models/weapons/v_pistol.mdl"
 SWEP.WorldModel			= "models/weapons/w_pistol.mdl"
+SWEP.HoldType				= "pistol"
 
 SWEP.Spawnable			= false
 SWEP.AdminSpawnable		= true
@@ -34,3 +35,7 @@ SWEP.IronSightsAng 		= Vector (0, 0, 0)
 
 SWEP.RunPos 			= Vector(0,0,5)
 SWEP.RunAng			= Angle(15,0,0)
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end

@@ -5,6 +5,7 @@ SWEP.Base 				= "weapon_mad_base"
 SWEP.ViewModelFlip		= true
 SWEP.ViewModel			= "models/weapons/v_slam.mdl"
 SWEP.WorldModel			= "models/weapons/w_slam.mdl"
+SWEP.HoldType				= "slam"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false

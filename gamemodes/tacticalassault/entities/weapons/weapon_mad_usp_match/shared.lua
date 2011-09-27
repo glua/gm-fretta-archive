@@ -4,6 +4,7 @@ SWEP.Base 				= "weapon_mad_base"
 
 SWEP.ViewModel			= "models/weapons/v_pistol.mdl"
 SWEP.WorldModel			= "models/weapons/w_pistol.mdl"
+SWEP.HoldType				= "pistol"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= false
