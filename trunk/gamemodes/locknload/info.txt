@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Lock 'n Load (Arena)"
+	"version"	"1"
+
+	"author_name"	"Devenger"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+	
+	"mappattern"
+	{
+		"1"	"^lnl_"
+	}
+	
+	"fretta_maps"
+	{
+		"1"	"^lnl_"
+	}
+
+	"selectable"	"1"
+	"description"	"Select and customise weaponry, kill and capture."
+}
