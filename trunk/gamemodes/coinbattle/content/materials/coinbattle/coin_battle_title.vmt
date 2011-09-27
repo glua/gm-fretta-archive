@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "coinbattle/coin_battle_title"
+	"$translucent" 1
+}

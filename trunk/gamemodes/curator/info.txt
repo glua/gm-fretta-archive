@@ -1,0 +1,16 @@
+"Gamemode"
+{
+	"name"		"Curator"
+	"version"	".01a"
+
+	"author_name"	"Levybreak + find me"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"Protect your own museum or become a theif and steal form one!"
+	"hide"		"0"
+	"mappattern"
+	{
+		"1"	"^cur_"
+	}
+}

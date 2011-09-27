@@ -1,0 +1,29 @@
+"Gamemode"
+{
+	"name"		"Coin Battle"
+	"version"	"1"
+
+	"author_name"	"CowThing"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		"Collect the most coins!"
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^cb_"
+		"2"	"^cs_"
+		"3"	"^de_"
+		"4" "^dm_"
+		"5" "^dod_"
+	}
+	"mappattern"
+	{
+		"1"	"^cb_"
+	}
+
+	"selectable"	"1"
+	"description"	"Collect the most coins!"
+}

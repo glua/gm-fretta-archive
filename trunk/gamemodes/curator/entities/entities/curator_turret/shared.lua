@@ -1,0 +1,7 @@
+ENT.Type 			= "anim"
+ENT.Base 			= "base_anim"
+ENT.PrintName		= "Turret"
+ENT.Author			= "Levybreak"
+ENT.Contact 		= "Facepunch"
+ENT.Purpose			= ""
+ENT.Instructions	= "It shoots things." 
