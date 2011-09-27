@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"CrateWars"
+	"version"	"1"
+
+	"author_name"	"Paul Sweeney and Douglas Huck"
+	"author_email"	"matchheadstudios@gmail.com"
+	"author_url"	"MatchHeadStudios.com"
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^cw_"
+	}
+	
+	"mappattern"
+	{
+		"1"	"^cw_"
+	}
+
+	"selectable"	"1"
+	"description"	"Build and Fight"
+}

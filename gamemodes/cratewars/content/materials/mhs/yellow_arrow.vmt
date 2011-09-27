@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "mhs/yellow_arrow"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
