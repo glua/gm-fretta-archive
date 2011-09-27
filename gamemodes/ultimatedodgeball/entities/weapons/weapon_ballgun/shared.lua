@@ -46,11 +46,7 @@ SWEP.WorldModel			= "models/weapons/w_rocket_launcher.mdl"
 SWEP.ShootSound = Sound("weapons/grenade_launcher1.wav")
 
 function SWEP:Initialize()
-
-    if (SERVER) then
-		self.Weapon:SetWeaponHoldType( "rpg" )
-	end
-	
+	self.Weapon:SetWeaponHoldType( "rpg" )
 end 
 
 function SWEP:Deploy()

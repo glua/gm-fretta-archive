@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "slam"
-	
 end
 
 if CLIENT then
@@ -34,6 +32,7 @@ if CLIENT then
 	
 end
 
+SWEP.HoldType = "slam"
 SWEP.ViewModel				= "models/weapons/v_eq_fraggrenade.mdl"
 SWEP.WorldModel				= "models/weapons/w_eq_fraggrenade.mdl"
 
@@ -49,9 +48,7 @@ SWEP.Secondary.Ammo			= "none"
 
 function SWEP:Initialize()
 
-	if SERVER then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 	
 end
 

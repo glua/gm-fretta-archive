@@ -133,9 +133,3 @@ function SWEP:SecondaryAttack()
 		local history = self.Owner:GetNWInt("Crates")
 		self.Owner:SetNWInt("Crates", history + 1)
 end
- 
-----------------
-
-if !SERVER then
-
-end 

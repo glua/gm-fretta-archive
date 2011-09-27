@@ -3,8 +3,6 @@ if ( SERVER ) then
 
 	AddCSLuaFile( "shared.lua" )
 	
-	SWEP.HoldType			= "smg"
-	
 end
 
 if ( CLIENT ) then
@@ -32,6 +30,8 @@ SWEP.Category			= "Carnag3"
 SWEP.Spawnable			= false
 SWEP.AdminSpawnable		= false
 
+SWEP.HoldType			= "smg"
+
 SWEP.ViewModel			= "models/weapons/v_smg1.mdl"
 SWEP.WorldModel			= "models/weapons/w_smg1.mdl"
 
@@ -57,3 +57,7 @@ SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
 SWEP.IronSightsPos 		= Vector( -6, -6.8, 2 )
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end

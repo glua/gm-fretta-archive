@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "melee"
-	
 end
 
 if CLIENT then
@@ -29,6 +27,8 @@ if CLIENT then
 	
 end
 
+SWEP.HoldType = "melee"
+
 SWEP.ViewModel	= "models/weapons/v_pistol.mdl"
 SWEP.WorldModel = "models/weapons/w_pistol.mdl"
 
@@ -43,7 +43,7 @@ SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
 function SWEP:Initialize()
-	
+	self:SetWeaponHoldType( self.HoldType )
 end
 
 function SWEP:Deploy()

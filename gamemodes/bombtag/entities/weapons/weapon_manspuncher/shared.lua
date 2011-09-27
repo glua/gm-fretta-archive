@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "ar2"
-	
 end
 
 if CLIENT then
@@ -34,7 +32,8 @@ if CLIENT then
 	killicon.AddFont( "weapon_manspuncher", SWEP.KillFont, SWEP.IconLetter, Color( 255, 80, 0, 255 ) )
 	
 end
-
+	
+SWEP.HoldType = "ar2"
 SWEP.ViewModel			= "models/weapons/v_smg_p90.mdl"
 SWEP.WorldModel			= "models/weapons/w_smg_p90.mdl"
 
@@ -54,9 +53,7 @@ SWEP.Secondary.DefaultClip	= -1
 
 function SWEP:Initialize()
 
-	if SERVER then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 	
 end
 

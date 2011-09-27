@@ -83,11 +83,12 @@ SWEP.IronSway = 0.3
 function SWEP:Initialize()
 
 	if ( SERVER ) then
-		self:SetWeaponHoldType( self.HoldType )
 		self:SetNPCMinBurst( 30 )
 		self:SetNPCMaxBurst( 30 )
 		self:SetNPCFireRate( 0.01 )
 	end
+	
+	self:SetWeaponHoldType( self.HoldType )
 	
 	self.Weapon:SetNetworkedBool( "Ironsights", false )
 	

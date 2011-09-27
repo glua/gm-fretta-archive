@@ -1,7 +1,6 @@
 if ( SERVER ) then
 
 	AddCSLuaFile( "shared.lua" )
-	SWEP.HoldType			= "shotgun"
 	
 end
 
@@ -22,6 +21,8 @@ SWEP.Base				= "weapon_cs_base"
 
 SWEP.Spawnable			= false
 SWEP.AdminSpawnable		= false
+
+SWEP.HoldType			= "shotgun"
 
 SWEP.ViewModel			= "models/weapons/v_shot_xm1014.mdl"
 SWEP.WorldModel			= "models/weapons/w_shot_xm1014.mdl"
@@ -47,6 +48,10 @@ SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
 SWEP.IronSightsPos 		= Vector( 5.1, -4.2, 2.07 )
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end
 
 function SWEP:Reload()
 	

@@ -37,9 +37,7 @@ SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
 
 function SWEP:Initialize()
-	if ( SERVER ) then
-		self:SetWeaponHoldType( "ar2" )
-	end
+	self:SetWeaponHoldType( "ar2" )
 end
 
 function SWEP:PrimaryAttack()

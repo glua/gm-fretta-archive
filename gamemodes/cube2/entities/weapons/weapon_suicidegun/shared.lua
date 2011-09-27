@@ -29,6 +29,7 @@ SWEP.IronSightsAng 			= Vector( 95.4548, -9.2427, 0 );
 
 function SWEP:Initialize()
 	
+	self:SetWeaponHoldType( self.HoldType )
 	self.Ironsights = false;
 	
 end

@@ -56,9 +56,7 @@ SWEP.Secondary.Delay = 0.2
 function SWEP:Initialize()
 	util.PrecacheSound(self.Primary.Sound)
 	util.PrecacheSound(self.Secondary.Sound)
-	if ( SERVER ) then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 end
 //SWEP:Initialize()\\
 

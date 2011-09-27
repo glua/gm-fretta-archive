@@ -60,9 +60,7 @@ SWEP.Secondary.Ammo			= "none"
 
 function SWEP:Initialize()
 
-	if ( SERVER ) then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 	
 	self.Weapon:SetNetworkedBool( "Ironsights", false )
 	

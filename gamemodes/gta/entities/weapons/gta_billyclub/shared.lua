@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "melee"
-	
 end
 
 if CLIENT then
@@ -33,6 +31,8 @@ if CLIENT then
 	killicon.AddFont( "gta_billyclub", SWEP.IconFont, SWEP.IconLetter, Color( 255, 80, 0, 255 ) )
 	
 end
+
+SWEP.HoldType = "melee"
 
 SWEP.ViewModel  = "models/weapons/v_stunstick.mdl"
 SWEP.WorldModel = "models/weapons/w_stunbaton.mdl"

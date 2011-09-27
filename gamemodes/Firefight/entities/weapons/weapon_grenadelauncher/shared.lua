@@ -2,8 +2,6 @@ if ( SERVER ) then
 
 	AddCSLuaFile( "shared.lua" )
 	
-	SWEP.HoldType			= "rpg"
-	
 end
 
 if ( CLIENT ) then
@@ -41,6 +39,8 @@ SWEP.AdminSpawnable		= false
 SWEP.ViewModel			= "models/weapons/v_rpg.mdl"
 SWEP.WorldModel			= "models/weapons/w_rpg.mdl"
 
+SWEP.HoldType			= "rpg"
+
 SWEP.Weight				= 5
 SWEP.AutoSwitchTo		= true
 SWEP.AutoSwitchFrom		= false
@@ -56,6 +56,10 @@ SWEP.Secondary.ClipSize		= -1
 SWEP.Secondary.DefaultClip	= -1
 SWEP.Secondary.Automatic	= false
 SWEP.Secondary.Ammo			= "none"
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end
 
 function SWEP:Reload()
 end

@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "slam"
-	
 end
 
 if CLIENT then
@@ -31,6 +29,8 @@ if CLIENT then
 	end
 	
 end
+
+SWEP.HoldType = "slam"
 
 SWEP.ViewModel  = "models/Zed/weapons/v_banshee.mdl"
 SWEP.WorldModel = "models/weapons/w_pistol.mdl"
@@ -64,13 +64,7 @@ SWEP.Mana.Psycho = 50
 SWEP.Mana.Heal = 100
 
 function SWEP:Initialize()
-
-	if SERVER then
-	
-		self.Weapon:SetWeaponHoldType( self.HoldType )
-		
-	end
-	
+	self.Weapon:SetWeaponHoldType( self.HoldType )
 end
 
 function SWEP:Deploy()

@@ -59,12 +59,10 @@ for i = 1, 6 do
 	table.insert(SWEP.ImpactSounds, Sound("physics/body/body_medium_impact_hard"..i..".wav"))
 end
 
-if SERVER then
-	function SWEP:Initialize()
+function SWEP:Initialize()
 
-		self:SetWeaponHoldType( "shotgun" )
+	self:SetWeaponHoldType( "shotgun" )
 
-	end
 end
 
 function SWEP:SetupDataTables()

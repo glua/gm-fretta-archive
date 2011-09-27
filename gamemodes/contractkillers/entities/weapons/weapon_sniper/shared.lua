@@ -59,9 +59,7 @@ function SWEP:Initialize()
 	util.PrecacheSound(self.Primary.Sound)
 	util.PrecacheSound(self.Secondary.Sound)
 	self.Zoomed = false
-	if ( SERVER ) then
-		self:SetWeaponHoldType( self.HoldType )
-	end
+	self:SetWeaponHoldType( self.HoldType )
 end
 //SWEP:Initialize()\\
 

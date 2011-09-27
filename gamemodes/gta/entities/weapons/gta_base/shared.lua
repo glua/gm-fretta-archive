@@ -6,8 +6,6 @@ if SERVER then
 	SWEP.AutoSwitchTo		= false
 	SWEP.AutoSwitchFrom		= false
 	
-	SWEP.HoldType = "ar2"
-	
 end
 
 if CLIENT then
@@ -34,6 +32,8 @@ end
 
 SWEP.ViewModel	= "models/weapons/v_pist_usp.mdl"
 SWEP.WorldModel = "models/weapons/w_pist_usp.mdl"
+
+SWEP.HoldType = "ar2"
 
 SWEP.IronsightsFOV = 65
 
@@ -134,9 +134,7 @@ end
 
 function SWEP:Initialize()
 
-	if SERVER then
-		self.Weapon:SetWeaponHoldType( self.HoldType )
-	end
+	self.Weapon:SetWeaponHoldType( self.HoldType )
 	
 end
 

@@ -3,7 +3,6 @@ if (SERVER) then
 
 	AddCSLuaFile( "shared.lua" )
 	SWEP.Weight				= 5
-	SWEP.HoldType			= "rpg"
 
 end
 
@@ -22,6 +21,8 @@ if ( CLIENT ) then
 end
 
 SWEP.Base				= "kh_base"
+
+SWEP.HoldType			= "rpg"
 
 SWEP.ViewModel			= "models/weapons/v_rpg.mdl"
 SWEP.WorldModel			= "models/weapons/w_rocket_launcher.mdl"

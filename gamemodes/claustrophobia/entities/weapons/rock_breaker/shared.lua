@@ -21,6 +21,8 @@ SWEP.BounceWeaponIcon   = false
 SWEP.SwayScale			= 1.0
 SWEP.BobScale			= 1.0
 
+SWEP.HoldType				= "rpg"
+
 SWEP.ViewModelFOV	= 62
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/v_RPG.mdl"
@@ -34,6 +36,10 @@ SWEP.Primary.ClipSize		= -1
 SWEP.Primary.DefaultClip	= -1
 SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "none"
+
+function SWEP:Initialize()
+	self:SetWeaponHoldType( self.HoldType )
+end
 
 /*---------------------------------------------------------
    Name: SWEP:PrimaryAttack( )

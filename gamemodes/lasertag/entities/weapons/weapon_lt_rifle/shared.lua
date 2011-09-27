@@ -62,7 +62,7 @@ SWEP.BaseSettings = table.Copy(SWEP.Settings) // Backup of default settings for 
 
 function SWEP:Initialize()
 	util.PrecacheSound("ambient/levels/labs/electric_explosion1.wav")
-	if SERVER then self:SetWeaponHoldType("smg") end
+	self:SetWeaponHoldType("smg")
 end
 
 /*---------------------------------------------------------
