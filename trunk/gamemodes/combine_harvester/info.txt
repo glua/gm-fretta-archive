@@ -1,0 +1,26 @@
+"Gamemode"
+{
+	"name"		"Combine Harvester"
+	"version"	"0.1"
+
+	"author_name"	"Carnag3"
+	"author_email"	"mousey76397@gmail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+
+	"fretta_maps"
+	{
+		"1"	"^cm_"
+	}
+	"mappattern"
+	{
+
+		"1"	"^cm_"
+	}
+
+	"selectable"	"1"
+	"description"	"Kill Combine!"
+}

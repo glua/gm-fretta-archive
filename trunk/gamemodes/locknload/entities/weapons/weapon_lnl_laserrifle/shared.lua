@@ -2,8 +2,6 @@ SWEP.Base = "weapon_lnl_base"
 
 if SERVER then
 	AddCSLuaFile ("shared.lua")
-	
-	SWEP.HoldType			= "ar2"
 end
 
 SWEP.Spawnable				= true
@@ -21,6 +19,8 @@ SWEP.WorldModel				= "models/weapons/w_irifle.mdl"
 SWEP.ViewModelAimPos		= Vector (-3.4599, -1.5141, 1.7999)
 SWEP.ViewModelFlip			= false
 SWEP.ViewModelFOV			= 65
+	
+SWEP.HoldType			= "ar2"
 
 SWEP.DrawAmmo				= false
 SWEP.DrawCrosshair			= false
