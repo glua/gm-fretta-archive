@@ -2,8 +2,6 @@ SWEP.Base = "weapon_lnl_base"
 
 if SERVER then
 	AddCSLuaFile ("shared.lua")
-	
-	SWEP.HoldType			= "rpg"
 end
 
 SWEP.Spawnable				= true
@@ -22,6 +20,8 @@ SWEP.ViewModelAimPos		= Vector (-7.3504, -5.5898, 2.1605)
 SWEP.ViewModelAimAng		= Vector (0, 0, 11.9645)
 SWEP.ViewModelFlip			= false
 SWEP.ViewModelFOV			= 65
+	
+SWEP.HoldType			= "rpg"
 
 SWEP.DrawAmmo				= false
 SWEP.DrawCrosshair			= false

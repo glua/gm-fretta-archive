@@ -2,8 +2,6 @@ SWEP.Base = "weapon_lnl_base"
 
 if SERVER then
 	AddCSLuaFile ("shared.lua")
-	
-	SWEP.HoldType			= "smg"
 end
 
 SWEP.Spawnable				= true
@@ -21,6 +19,8 @@ SWEP.WorldModel				= "models/weapons/w_smg1.mdl"
 SWEP.ViewModelAimPos		= Vector (-4.391, -1.1411, 1.8545)
 SWEP.ViewModelFlip			= false
 SWEP.ViewModelFOV			= 65
+	
+SWEP.HoldType			= "smg"
 
 SWEP.DrawAmmo				= false
 SWEP.DrawCrosshair			= false

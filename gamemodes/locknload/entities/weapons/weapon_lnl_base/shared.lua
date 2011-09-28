@@ -1,7 +1,5 @@
 if SERVER then
 	AddCSLuaFile ("shared.lua")
-	
-	SWEP.HoldType			= "ar2"
 end
 
 local aimSensitivity = CreateClientConVar ("lnl_zoom_sensitivity", "1", true)
@@ -25,6 +23,8 @@ SWEP.ZoomTime				= 0.2
 SWEP.ViewModelFlip			= true
 SWEP.ViewModelFOV			= 65
 SWEP.CSMuzzleFlashes		= true
+	
+SWEP.HoldType			= "ar2"
 
 SWEP.DrawAmmo				= false
 SWEP.DrawCrosshair			= false
@@ -52,9 +52,7 @@ SWEP.UseLNLAiming	= true
 SWEP.StationaryAimingOn		= false
 
 function SWEP:Initialize()
-	if SERVER then
-		self:SetWeaponHoldType (self.HoldType)
-	end
+	self:SetWeaponHoldType (self.HoldType)
 end
 
 function SWEP:CanPrimaryAttack (nosound)
