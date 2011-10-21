@@ -16,9 +16,18 @@ function CLASS:Loadout( pl )
 
 	pl:Give( "weapon_suicidal" )
 	
+	// Setup default positions, just in case
+	local pos, ang = pl:GetPos() + Vector(0,0,40) + pl:GetForward() * -10, pl:GetForward():Angle() + Angle(20,0,0)
+	
+	// Attach to spine
+	local boneid = pl:LookupBone("ValveBiped.Bip01_Spine2")
+	if boneid then
+		pos, ang = pl:GetBonePosition( BoneIndx )
+	end
+    
 	local bomb = ents.Create( "sent_dynamite" )
-	bomb:SetPos( pl:GetPos() + Vector(0,0,40) + pl:GetForward() * -10 )
-	bomb:SetAngles( pl:GetForward():Angle() + Angle(20,0,0) )
+	bomb:SetPos( pos )
+	bomb:SetAngles( ang )
 	bomb:SetParent( pl )
 	bomb:SetOwner( pl )
 	bomb:Spawn()
