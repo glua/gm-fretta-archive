@@ -69,6 +69,20 @@ Ultimate Hide and Seek | Unknown
 Ultimate Dodgeball | Unknown
 Zombie Onslaught | Unknown
 
+Additional known Fretta gamemode respositories:
+
+Gamemode | Maintainer | Working Status
+--- | --- | ---
+[BombTag](https://github.com/NiandraL/BombTag-Fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[CTF](https://github.com/NiandraL/Capture-The-Flag) | [NiandraLades](https://github.com/NiandraL) | Working
+[Crash 'n Smash](https://github.com/NiandraL/Crash-N-Smash-Fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[Deathrun 2D](https://github.com/NiandraL/Deathrun-2D-fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[Freezetag](https://github.com/NiandraL/FreezeTag-Fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[Laser Dance](https://github.com/NiandraL/Laser-Dance-Fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[One In The Chamber](https://github.com/NiandraL/One-In-The-Chamber-Fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[Poltergeist](https://github.com/NiandraL/Poltergeist-Fretta-) | [NiandraLades](https://github.com/NiandraL) | Working
+[Zinger](https://github.com/zerfgog/zinger) | [Zerf](https://github.com/zerfgog) | Broken
+
 Pull requests are welcome for any gamemode additions or fixes.
 
 All original authors should be credited within each gamemodes' respective _info.txt_ file.
